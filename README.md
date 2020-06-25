@@ -2,7 +2,7 @@
 
 ## Overview
 
-We designed Stretch to be easily extensible. You can make your own tool and attach it to the wrist to creatively expand what the Stretch RE1 can do. Your tool can also use Dynamixel X-series servos from Robotis via the provided TTL bus. 
+We designed Stretch's hardware to be easily extended. You can make your own tool and attach it to the wrist to creatively expand what the Stretch RE1 can do. Your tool can also use Dynamixel X-series servos from Robotis via the provided TTL bus. 
 
 In this repository, we provide examples of tools that we've created. We've released them with a permissive Apache 2.0 license, so you're free to use them as you wish. We hope they'll inspire you to create your own tools.
 
