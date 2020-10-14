@@ -1,6 +1,6 @@
 ![image](images/HelloRobotLogoBar.png)
 
-## Stretch RE1 Arm Model
+## Stretch RE1 Head Model
 
 **Created by**: Hello Robot Inc
 
