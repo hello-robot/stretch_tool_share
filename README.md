@@ -17,7 +17,7 @@ We'd love it if you shared your creations with the community. We recommend you c
 |  [Tray Cup Holder V1](/tray_cup_holder_V1)  | <img src="tray_cup_holder_V1/images/cup_holder.png" alt="image" height="250" /> |
 |           [Puller V1](/puller_v1)           | <img src="puller_v1/images/drawer_pull_A.PNG" alt="image" height="250" /> |
 |     [Stretch RE1 Arm](/stretch_RE1_arm)     | <img src="stretch_RE1_arm/images/arm_A.PNG" alt="image" height="250" /> |
-|   [Stretch RE1 Head](./stretch_RE1_head)    |                                                              |
+|   [Stretch RE1 Head](./stretch_RE1_head)    | <img src="stretch_RE1_head/images/stretch_head_A.PNG" alt="image" height="250" /> |                                                             |
 
 
 ## Licenses
