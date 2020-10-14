@@ -17,12 +17,13 @@ We'd love it if you shared your creations with the community. We recommend you c
 |  [Tray Cup Holder V1](/tray_cup_holder_V1)  | <img src="tray_cup_holder_V1/images/cup_holder.png" alt="image" height="250" /> |
 |           [Puller V1](/puller_v1)           | <img src="puller_v1/images/drawer_pull_A.PNG" alt="image" height="250" /> |
 |     [Stretch RE1 Arm](/stretch_RE1_arm)     | <img src="stretch_RE1_arm/images/arm_A.PNG" alt="image" height="250" /> |
+|   [Stretch RE1 Head](./stretch_RE1_head)    |                                                              |
 
 
 ## Licenses
 
-The contents in this repository that represent parts of the Stretch RE1 robot, such as its arm, wrist, and default gripper, are covered by the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Please note that the Stretch RE1 robot and its default gripper are also covered by pending patents. Please see the ROBOT_LICENSE.md file for details. 
+The contents in this repository that represent parts of the Stretch RE1 robot, such as its arm, wrist, and default gripper, are covered by the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Please note that the Stretch RE1 robot and its default gripper are also covered by pending patents. Please see the [ROBOT_LICENSE](ROBOT_LICENSE.md) file for details. 
 
-Other contents in this repository created by Hello Robot Inc. that specifically pertain to the tools that attach to the Stretch RE1 as accessories are covered by the [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) license. Please see the TOOL_LICENSE.md file for details. 
+Other contents in this repository created by Hello Robot Inc. that specifically pertain to the tools that attach to the Stretch RE1 as accessories are covered by the [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) license. Please see the [TOOL_LICENSE](TOOL_LICENSE.md) file for details. 
 
 The contents of this repository are intended for use with the Stretch RE1 mobile manipulator, which is a robot produced and sold by Hello Robot Inc. For further information, including inquiries about dual licensing, please contact Hello Robot Inc.

@@ -1,4 +1,4 @@
-The following license applies to the entire contents of this directory that represent parts of the Stretch RE1 robot (the "Robot Contents"), such as the robot's arm, wrist, and default gripper. The Robot Contents consists of software and data for use with the Stretch RE1 mobile manipulator, which is a robot produced and sold by Hello Robot Inc.
+The following license applies to the entire contents of this directory that represent parts of the Stretch RE1 robot (the "Robot Contents"), such as the robot's head, arm, wrist, and default gripper. The Robot Contents consists of software and data for use with the Stretch RE1 mobile manipulator, which is a robot produced and sold by Hello Robot Inc.
 
 Copyright 2020 Hello Robot Inc.
 
