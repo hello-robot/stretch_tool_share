@@ -87,4 +87,4 @@ Now attach your wrist to the Stretch tool plate using the Robotis Frame and thei
 
 ## Code
 
-You're ready to start using your wrist. See the [demo code here](python/reactor_wrist.py)  to test drive your wrist.
+You're ready to start using your wrist. You will want to [add the wrist YAML](./stretch_re1_tool_params.yaml) to your copy of `stretch_re1_user_params.yaml`. See the [demo code here](python/reactor_wrist.py)  to test drive your wrist.
