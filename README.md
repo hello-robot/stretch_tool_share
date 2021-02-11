@@ -6,6 +6,8 @@ We designed Stretch's hardware to be easily extended. You can make your own tool
 
 In this repository, we provide examples of tools that we've created. We've released them with a permissive Apache 2.0 license, so you're free to use them as you wish. We hope they'll inspire you to create your own tools.
 
+We also include URDF and mesh files for many of the tools in the [stretch_description](./stretch_description) folder. See the [Stretch ROS](https://github.com/hello-robot/stretch_ros/tree/master/stretch_description) documentation for guidance on integrating these tools into your robot model.
+
 We'd love it if you shared your creations with the community. We recommend you create a GitHub repository similar to this one for your own tools and then post an announcement to the [forum](https://forum.hello-robot.com/) to let people know about it. 
 
 |                       Tool                        |                                                              |
