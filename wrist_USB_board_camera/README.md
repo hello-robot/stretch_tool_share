@@ -6,10 +6,8 @@
 
 This design allows you to attach a USB board camera to the wrist yaw joint of Stretch. The wrist mounted camera can pan left-right, making it perfect for simple remote inspection tasks.
 
-We provide the URDF data here as well. To incorporate this tool into the URDF of your Stretch, see the instructions in the [Stretch Ros documentation](https://github.com/hello-robot/stretch_ros/tree/master/stretch_description).
-
 <img src="images/wrist_camera_A.png" alt="image" height="400" />
-<img src="images/wrist_camera_b.png" alt="image" height="400" />
+<img src="images/wrist_camera_B.png" alt="image" height="400" />
 
 ## Parts List
 
