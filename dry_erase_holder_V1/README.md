@@ -6,7 +6,7 @@
 
 This tool allows Stretch to hold a dry erase marker.  It is spring loaded, allowing for compliant interaction between the marker and a white board. 
 
-The tool can be integrated into your robot URDF by integrating its [stretch_description](./stretch_descrption) as described in the [Stretch ROS documentation](https://github.com/hello-robot/stretch_ros/tree/master/stretch_description).
+The tool can be integrated into your robot URDF by integrating its [stretch_description](./stretch_description) as described in the [Stretch ROS documentation](https://github.com/hello-robot/stretch_ros/tree/master/stretch_description).
 
 <img src="images/dry_erase_A.PNG" alt="image"  height=400 />
 
