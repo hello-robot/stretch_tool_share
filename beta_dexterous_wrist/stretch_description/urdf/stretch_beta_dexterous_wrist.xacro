@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="stretch_wrist_USB_board_camera">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="stretch_beta_dexterous_wrist">
 
   <xacro:property name="scale_finger_length" value="0.9" />
 
@@ -7,17 +7,17 @@
     name="link_wrist_yaw_bottom">
     <inertial>
       <origin
-        xyz="-0.012839 -0.038279 -0.02284"
+        xyz="-0.012839101377342 -0.0382787718640741 -0.0228400332263617"
         rpy="0 0 0" />
       <mass
-        value="0.098891" />
+        value="0.0988906816399982" />
       <inertia
-        ixx="2.6007E-05"
-        ixy="-6.7318E-06"
-        ixz="-2.4348E-06"
-        iyy="5.9948E-06"
-        iyz="-3.3964E-06"
-        izz="2.5691E-05" />
+        ixx="2.60067866573596E-05"
+        ixy="-6.73176267521351E-06"
+        ixz="-2.43476436723672E-06"
+        iyy="5.99482946819922E-06"
+        iyz="-3.396424104924E-06"
+        izz="2.56907114334732E-05" />
     </inertial>
     <visual>
       <origin
@@ -30,7 +30,7 @@
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -60,17 +60,17 @@
     name="link_wrist_pitch">
     <inertial>
       <origin
-        xyz="-0.0031061 -0.015078 0.020473"
+        xyz="-0.00310609611067145 -0.015077714146584 0.0204734587925902"
         rpy="0 0 0" />
       <mass
-        value="0.070127" />
+        value="0.0701267146295583" />
       <inertia
-        ixx="2.5597E-06"
-        ixy="-1.4755E-06"
-        ixz="-6.3144E-08"
-        iyy="3.4397E-06"
-        iyz="-4.1781E-07"
-        izz="4.5357E-06" />
+        ixx="2.55965614980906E-06"
+        ixy="-1.47551515167608E-06"
+        ixz="-6.31436085977322E-08"
+        iyy="3.43968637386282E-06"
+        iyz="-4.1781356720885E-07"
+        izz="4.53568668211394E-06" />
     </inertial>
     <visual>
       <origin
@@ -83,7 +83,7 @@
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -114,10 +114,10 @@
     name="link_wrist_roll">
     <inertial>
       <origin
-        xyz="-9.6312E-15 6.3838E-15 0.0076805"
+        xyz="9.63118473862323E-15 -6.38378239159465E-15 0.00768048802649798"
         rpy="0 0 0" />
       <mass
-        value="0.0058567" />
+        value="0.00585666394358811" />
       <inertia
         ixx="0"
         ixy="0"
@@ -137,7 +137,7 @@
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -155,7 +155,7 @@
     type="revolute">
     <origin
       xyz="-0.0188587444076125 -0.0239999999998942 0.01955"
-      rpy="3.14159265358979 -1.5707963267949 0" />
+      rpy="3.14159265358979 1.5707963267949 0" />
     <parent
       link="link_wrist_pitch" />
     <child
@@ -168,17 +168,17 @@
     name="link_straight_gripper">
     <inertial>
       <origin
-        xyz="0.0015076 -0.0071158 0.039974"
+        xyz="0.00150764845432383 -0.00711581846201298 0.0399737901417759"
         rpy="0 0 0" />
       <mass
-        value="0.049638" />
+        value="0.0496384234458285" />
       <inertia
-        ixx="5.6146E-06"
-        ixy="8.2952E-07"
-        ixz="-2.4138E-06"
-        iyy="1.115E-05"
-        iyz="9.7617E-07"
-        izz="6.638E-06" />
+        ixx="5.61461154156397E-06"
+        ixy="8.29518962984173E-07"
+        ixz="-2.41382921888194E-06"
+        iyy="1.11504692003467E-05"
+        iyz="9.76174898123362E-07"
+        izz="6.63803357903884E-06" />
     </inertial>
     <visual>
       <origin
@@ -191,7 +191,7 @@
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -209,7 +209,7 @@
     type="fixed">
     <origin
       xyz="0 0 0.0155"
-      rpy="3.54987407349455E-30 3.24021254484265E-20 6.83173341356343E-15" />
+      rpy="3.54987407349455E-30 3.24021254484265E-20 -3.14159265358979" />
     <parent
       link="link_wrist_roll" />
     <child
@@ -221,10 +221,10 @@
     name="link_gripper_finger_right">
     <inertial>
       <origin
-        xyz="0.094981 0.0080152 1.5543E-15"
+        xyz="-0.0949811095686175 0.00801522758203033 2.22044604925031E-16"
         rpy="0 0 0" />
       <mass
-        value="0.047621" />
+        value="0.047620778519948" />
       <inertia
         ixx="0"
         ixy="0"
@@ -244,7 +244,7 @@
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -261,24 +261,24 @@
     name="joint_gripper_finger_right"
     type="revolute">
     <origin
-      xyz="-0.0185992414250129 0.00300000000000195 0.0336888959851236"
-      rpy="1.5707963267949 -1.5707963267949 0" />
+      xyz="-0.0185992414250104 0.00300000000000022 0.0336888959851238"
+      rpy="1.57079632679489 1.5707963267949 0" />
     <parent
       link="link_straight_gripper" />
     <child
       link="link_gripper_finger_right" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
     <limit effort="100" velocity="1.0"/>
   </joint>
   <link
     name="link_gripper_fingertip_right">
     <inertial>
       <origin
-        xyz="2.8379E-08 6.7513E-09 0.0081258"
+        xyz="2.83785970833783E-08 6.75131661687089E-09 0.00812578923434215"
         rpy="0 0 0" />
       <mass
-        value="0.0038216" />
+        value="0.00382160881468841" />
       <inertia
         ixx="0"
         ixy="0"
@@ -298,7 +298,7 @@
       <material
         name="">
         <color
-          rgba="0.25098 0.25098 0.25098 1" />
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
       </material>
     </visual>
     <collision>
@@ -315,8 +315,8 @@
     name="joint_gripper_fingertip_right"
     type="fixed">
     <origin
-      xyz="0.190596948563868 0.00604200491758022 0"
-      rpy="-1.57079632679483 -3.43320051448326E-14 -2.60113659715756" />
+      xyz="-0.190596948563868 0.00604200491758269 0"
+      rpy="1.57079632679497 3.43320051448326E-14 -0.540456056432235" />
     <parent
       link="link_gripper_finger_right" />
     <child
@@ -328,10 +328,10 @@
     name="link_gripper_finger_left">
     <inertial>
       <origin
-        xyz="0.094981 0.0080152 -3.0531E-15"
+        xyz="-0.0949811095686165 0.00801522758203194 1.38777878078145E-15"
         rpy="0 0 0" />
       <mass
-        value="0.047621" />
+        value="0.0476207785199479" />
       <inertia
         ixx="0"
         ixy="0"
@@ -351,7 +351,7 @@
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -369,13 +369,13 @@
     type="revolute">
     <origin
       xyz="0.018599 0.003 0.033689"
-      rpy="1.5708 -1.5708 0" />
+      rpy="1.5708 1.5708 0" />
     <parent
       link="link_straight_gripper" />
     <child
       link="link_gripper_finger_left" />
     <axis
-      xyz="0 0 1" />
+      xyz="0 0 -1" />
     <limit
       effort="0"
       velocity="0" />
@@ -384,10 +384,10 @@
     name="link_gripper_fingertip_left">
     <inertial>
       <origin
-        xyz="-2.595E-08 -6.6561E-09 0.0081258"
+        xyz="-2.59496317767116E-08 -6.65612598371723E-09 0.00812579036862837"
         rpy="0 0 0" />
       <mass
-        value="0.0038216" />
+        value="0.00382160686584851" />
       <inertia
         ixx="0"
         ixy="0"
@@ -407,7 +407,7 @@
       <material
         name="">
         <color
-          rgba="0.25098 0.25098 0.25098 1" />
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
       </material>
     </visual>
     <collision>
@@ -424,8 +424,8 @@
     name="joint_gripper_fingertip_left"
     type="fixed">
     <origin
-      xyz="0.1906 0.006042 0"
-      rpy="-1.5708 -4.5128E-14 -2.6011" />
+      xyz="-0.190596948563868 0.00604200491773282 0"
+      rpy="1.57079632679496 4.51275387511463E-14 -0.540456056432237" />
     <parent
       link="link_gripper_finger_left" />
     <child
@@ -433,4 +433,4 @@
     <axis
       xyz="0 0 0" />
   </joint>
-  </robot>
+</robot>
