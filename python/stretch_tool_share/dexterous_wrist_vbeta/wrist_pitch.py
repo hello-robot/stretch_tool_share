@@ -1,6 +1,5 @@
 from stretch_body.dynamixel_hello_XL430 import DynamixelHelloXL430
 from stretch_body.hello_utils import *
-import time
 import logging
 
 class WristPitch(DynamixelHelloXL430):
