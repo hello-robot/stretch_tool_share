@@ -1,9 +1,9 @@
-from stretch_body.end_of_arm_tools import ToolNone
+from stretch_body.end_of_arm import EndOfArm
 
 
-class ToolUSBCamWrist(ToolNone):
-    def __init__(self):
-        ToolNone.__init__(self, 'tool_usbcam_wrist')
+class ToolUSBCamWrist(EndOfArm):
+    def __init__(self, name='tool_usbcam_wrist'):
+        EndOfArm.__init__(self, name)
 
     def take_picture(self):
         raise NotImplementedError()
