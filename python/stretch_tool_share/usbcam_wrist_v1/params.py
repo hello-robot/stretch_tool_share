@@ -1,7 +1,7 @@
 params = {
     "tool_usbcam_wrist": {
         'py_class_name': 'ToolUSBCamWrist',
-        'py_module_name': 'stretch_tool_share.usbcam_wrist_v1.usbcam_wrist_tool',
+        'py_module_name': 'stretch_tool_share.usbcam_wrist_v1.tool',
         'baud': 57600,
         'stow': {'offset_wrist_yaw': 3.4},
         'devices': {
@@ -9,7 +9,7 @@ params = {
                 'py_class_name': 'OffsetWristYaw',
                 'py_module_name': 'stretch_tool_share.usbcam_wrist_v1.offset_wrist_yaw',
                 'ros_py_class_name': 'OffsetWristYawCommandGroup',
-                'ros_py_module_name': 'stretch_tool_share.usbcam_wrist_v1.offset_wrist_yaw_command_group'
+                'ros_py_module_name': 'stretch_tool_share.usbcam_wrist_v1.command_groups'
             }
         }
     },

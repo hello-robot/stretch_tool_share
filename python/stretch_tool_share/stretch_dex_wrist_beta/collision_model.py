@@ -12,7 +12,7 @@ class CollisionStretchDexWrist(RobotCollisionModel):
     """
 
     def __init__(self, collision_manager):
-        RobotCollisionModel.__init__(self, collision_manager, 'collision_tool_dexterous_wrist')
+        RobotCollisionModel.__init__(self, collision_manager, 'collision_stretch_dex_wrist')
 
     def step(self, status):
         wrist_yaw_limit = [None, None]
