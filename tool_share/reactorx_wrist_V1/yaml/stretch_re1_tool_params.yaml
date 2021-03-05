@@ -1,0 +1,59 @@
+# Include 3rd Party tool / Tool Share device parameters here
+
+reactor_gripper:
+  gr: 1.0
+  id: 16
+  max_voltage_limit: 15
+  min_voltage_limit: 11
+  motion:
+    default: {accel: 8.0, vel: 3.0}
+    fast: {accel: 15.0, vel: 6.0}
+    max: {accel: 0, vel: 0}
+    slow: {accel: 4.0, vel: 1.0}
+  pid: [640, 0, 0]
+  pwm_limit: 885
+  range_t: [0, 4096]
+  req_calibration: 0
+  return_delay_time: 0
+  temperature_limit: 72
+  usb_name: /dev/hello-dynamixel-wrist
+  use_multiturn: 0
+  zero_t: 0
+reactor_pitch:
+  gr: 1.0
+  id: 14
+  max_voltage_limit: 15
+  min_voltage_limit: 11
+  motion:
+    default: {accel: 8.0, vel: 3.0}
+    fast: {accel: 15.0, vel: 6.0}
+    max: {accel: 0, vel: 0}
+    slow: {accel: 4.0, vel: 1.0}
+  pid: [640, 0, 0]
+  pwm_limit: 885
+  range_t: [0, 4096]
+  req_calibration: 0
+  return_delay_time: 0
+  temperature_limit: 72
+  usb_name: /dev/hello-dynamixel-wrist
+  use_multiturn: 0
+  zero_t: 0
+reactor_roll:
+  gr: 1.0
+  id: 15
+  max_voltage_limit: 15
+  min_voltage_limit: 11
+  motion:
+    default: {accel: 8.0, vel: 3.0}
+    fast: {accel: 15.0, vel: 6.0}
+    max: {accel: 0, vel: 0}
+    slow: {accel: 4.0, vel: 1.0}
+  pid: [640, 0, 0]
+  pwm_limit: 885
+  range_t: [0, 4096]
+  req_calibration: 0
+  return_delay_time: 0
+  temperature_limit: 72
+  usb_name: /dev/hello-dynamixel-wrist
+  use_multiturn: 0
+  zero_t: 0
