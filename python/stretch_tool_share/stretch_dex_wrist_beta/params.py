@@ -8,11 +8,11 @@ params = {
         'baud': 115200,
         'stow': {
             'arm': 0.0,
-            'lift': 0.5,
+            'lift': 0.38,
             'stretch_gripper': 0.0,
-            'wrist_pitch': 0.0,
+            'wrist_pitch': 1.57,
             'wrist_roll': 0.0,
-            'wrist_yaw': 3.4
+            'wrist_yaw': 0.0
         },
         'devices': {
             'stretch_gripper': {
@@ -36,17 +36,25 @@ params = {
                 'py_module_name': 'stretch_body.wrist_yaw',
             },
         },
-        'collision_models': ['collision_stretch_dex_wrist']
+        'collision_models': ['collision_stretch_dex_wrist_to_self','collision_stretch_dex_wrist_to_base']
     },
-    "collision_stretch_dex_wrist": {
+    "collision_stretch_dex_wrist_to_base": {
         'arm_palm_beyond_base': 0.07,
-        'enabled': 1,
+        'enabled': 0,
         'lift_fingertip_above_base': 0.2,
         'lift_palm_above_base': 0.085,
-        'py_class_name': 'CollisionStretchDexWrist',
+        'py_class_name': 'CollisionStretchDexWristToBase',
         'py_module_name': 'stretch_tool_share.stretch_dex_wrist_beta.collision_model',
         'r_gripper_tips': 0.24,
         'r_puller': 0.08
+    },
+    "collision_stretch_dex_wrist_to_self": {
+        'enabled': 1,
+        'limit_pitch_up_roll_1': {'pitch':[-0.56,None],'yaw': [-0.5,3.14] },
+        'limit_pitch_up_roll_2': {'pitch':[-0.45,None],'yaw': [-1.023,3.14] },
+        'limit_pitch_up_roll_3': {'pitch':[0,None],'yaw': [None,3.14] },
+        'py_class_name': 'CollisionStretchDexWristToSelf',
+        'py_module_name': 'stretch_tool_share.stretch_dex_wrist_beta.collision_model',
     },
     "wrist_pitch": {
         'flip_encoder_polarity': 0,
