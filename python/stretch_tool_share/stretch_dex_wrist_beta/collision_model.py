@@ -46,17 +46,17 @@ class CollisionStretchDexWristToSelf(RobotCollisionModel):
                 workspace='limit_pitch_up_palm_side'
             if x_roll<=deg_to_rad(45) and x_roll>=deg_to_rad(-45): #Servo body down
                 workspace='limit_pitch_up_palm_down'
-            print('----------------------------')
-            print('Roll %f'%x_roll)
-            print('Pitch %f' % x_pitch)
-            print('Yaw %f' % x_yaw)
+            #print('----------------------------')
+            #print('Roll %f'%x_roll)
+            #print('Pitch %f' % x_pitch)
+            #print('Yaw %f' % x_yaw)
 
-            print('Workspace %s'%workspace)
+            #print('Workspace %s'%workspace)
 
             w={ 'wrist_yaw':ww[workspace]['yaw'],'wrist_pitch':ww[workspace]['pitch'],'wrist_roll':[None, None]}
-            print('Yaw',w['wrist_yaw'])
-            print('Pitch',w['wrist_pitch'])
-            print self.collision_manager.robot.end_of_arm.motors['wrist_pitch'].soft_motion_limits
+            #print('Yaw',w['wrist_yaw'])
+            #print('Pitch',w['wrist_pitch'])
+            #print self.collision_manager.robot.end_of_arm.motors['wrist_pitch'].soft_motion_limits
         #print('Yaw limit %f to %f'%(rad_to_deg(w['wrist_yaw'][0]), rad_to_deg(w['wrist_yaw'][1])))
         #print('Pitch limit %f to %f' % (rad_to_deg(w['wrist_pitch'][0]), rad_to_deg(w['wrist_pitch'][1])))
             return w
