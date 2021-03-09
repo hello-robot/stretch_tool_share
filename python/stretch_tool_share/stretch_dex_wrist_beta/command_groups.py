@@ -6,8 +6,10 @@ class WristPitchCommandGroup(SimpleCommandGroup):
         if (range_rad is None and robot is not None and robot.end_of_arm is not None
             and robot.end_of_arm.is_tool_present('WristPitch')):
             range_ticks = robot.end_of_arm.motors['wrist_pitch'].params['range_t']
-            range_rad = (robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[1]),
-                         robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[0]))
+            range_rad = (robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[0]),
+                         robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[1]))
+            print('RANGE###############')
+            print(range_rad)
         SimpleCommandGroup.__init__(self, 'joint_wrist_pitch', range_rad)
 
     def init_execution(self, robot, robot_status, **kwargs):
@@ -35,8 +37,8 @@ class WristRollCommandGroup(SimpleCommandGroup):
         if (range_rad is None and robot is not None and robot.end_of_arm is not None
             and robot.end_of_arm.is_tool_present('WristRoll')):
             range_ticks = robot.end_of_arm.motors['wrist_roll'].params['range_t']
-            range_rad = (robot.end_of_arm.motors['wrist_roll'].ticks_to_world_rad(range_ticks[1]),
-                         robot.end_of_arm.motors['wrist_roll'].ticks_to_world_rad(range_ticks[0]))
+            range_rad = (robot.end_of_arm.motors['wrist_roll'].ticks_to_world_rad(range_ticks[0]),
+                         robot.end_of_arm.motors['wrist_roll'].ticks_to_world_rad(range_ticks[1]))
         SimpleCommandGroup.__init__(self, 'joint_wrist_roll', range_rad)
 
     def init_execution(self, robot, robot_status, **kwargs):
