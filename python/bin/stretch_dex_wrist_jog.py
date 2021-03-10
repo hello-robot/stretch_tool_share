@@ -25,7 +25,7 @@ elif args.pitch:
     print("Controlling Pitch Joint")
     w=wrist_pitch.WristPitch()
     w.startup()
-    poses = {'zero': 0, 'X': deg_to_rad(-55), 'Y': deg_to_rad(90)}
+    poses = {'zero': 0, 'X': deg_to_rad(55), 'Y': deg_to_rad(-90)}
 elif args.roll:
     print("Controlling Roll Joint")
     w = wrist_roll.WristRoll()
