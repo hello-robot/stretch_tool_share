@@ -68,6 +68,7 @@ class CollisionStretchDexWristToBase(RobotCollisionModel):
         tool_clear_of_base = (status['end_of_arm']['wrist_yaw']['pos'] < wrist_yaw_fwd) and (status['arm']['pos'] > self.params['arm_clear_base'])
         tool_to_floor=max(0, status['lift']['pos']+self.params['base_to_floor_offset']+height)
 
+
         if tool_clear_of_base:
             lift_lower_limit = min(max(0,status['lift']['pos']-tool_to_floor), status['lift']['pos'])  # Only low it to reduce the ROM
         else:
