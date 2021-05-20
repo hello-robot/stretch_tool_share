@@ -8,8 +8,6 @@ class WristPitchCommandGroup(SimpleCommandGroup):
             range_ticks = robot.end_of_arm.motors['wrist_pitch'].params['range_t']
             range_rad = (robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[1]),
                          robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[0]))
-            print('RANGE###############')
-            print(range_rad)
         SimpleCommandGroup.__init__(self, 'joint_wrist_pitch', range_rad)
 
     def init_execution(self, robot, robot_status, **kwargs):

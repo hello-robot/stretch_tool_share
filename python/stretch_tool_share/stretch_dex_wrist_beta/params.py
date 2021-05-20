@@ -8,7 +8,10 @@ params = {
     "tool_stretch_dex_wrist": {
         'py_class_name': 'ToolStretchDexWrist',
         'py_module_name': 'stretch_tool_share.stretch_dex_wrist_beta.tool',
-        'baud': 115200,
+        'use_group_sync_read': 1,
+        'retry_on_comm_failure': 1,
+        'baud':115200,
+        'verbose':0,
         'stow': {
             'arm': 0.0,
             'lift': 0.38,
@@ -87,8 +90,7 @@ params = {
         'zero_t': 1024,
         'baud':115200,
         'retry_on_comm_failure':1,
-        'verbose': 1,
-        'use_sentry': 1
+        'verbose': 0
     },
     "wrist_roll": {
         'flip_encoder_polarity': 0,
@@ -118,7 +120,6 @@ params = {
         'zero_t': 2048,
         'baud': 115200,
         'retry_on_comm_failure': 1,
-        'verbose': 1,
-        'use_sentry': 1
+        'verbose': 0
     }
 }

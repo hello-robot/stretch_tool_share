@@ -33,10 +33,11 @@ class WristRoll(DynamixelHelloXL430):
         It works by backing off the commanded position from the current position
         so as to lower the steady state error of the PID controller
         """
-        if self.status['stall_overload']:
-            if self.status['effort']>0:
-                self.move_by(self.params['stall_backoff'])
-                self.logger.info('Backoff at stall overload')
-            else:
-                self.move_by(-1*self.params['stall_backoff'])
-                self.logger.info('Backoff at stall overload')
+        if self.robot_params['robot_sentry']['wrist_roll_overload']:
+            if self.status['stall_overload']:
+                if self.status['effort']>0:
+                    self.move_by(self.params['stall_backoff'])
+                    self.logger.info('Backoff at stall overload')
+                else:
+                    self.move_by(-1*self.params['stall_backoff'])
+                    self.logger.info('Backoff at stall overload')
