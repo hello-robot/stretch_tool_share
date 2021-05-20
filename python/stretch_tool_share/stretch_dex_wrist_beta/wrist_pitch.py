@@ -35,7 +35,6 @@ class WristPitch(DynamixelHelloXL430):
         """
         if self.status['stall_overload']:
             if self.status['effort']>0:
-
                 self.move_by(self.params['stall_backoff'])
                 self.logger.info('Backoff at stall overload')
             else:
