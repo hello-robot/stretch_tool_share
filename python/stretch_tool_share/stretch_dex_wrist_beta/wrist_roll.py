@@ -26,7 +26,7 @@ class WristRoll(DynamixelHelloXL430):
         """
         self.move_to(self.poses[p],v_r,a_r)
 
-    def step_sentry(self):
+    def step_sentry(self,robot):
         """
         This sentry attempts to prevent the wrist servo from overheating
         if it is pushing against an object for too long
