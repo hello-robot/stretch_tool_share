@@ -12,15 +12,17 @@ We'd love it if you shared your creations with the community. We recommend you c
 
 |                       Tool                        |                                                              |
 | :-----------------------------------------------: | :----------------------------------------------------------: |
-| [Wrist USB Board Camera](/wrist_USB_board_camera) | <img src="wrist_USB_board_camera/images/wrist_camera_A.png" alt="image" height="250" /> |
-|        [Phone Holder V1](/phone_holder_V1)        | <img src="phone_holder_V1/images/phone_holder.png" alt="image" height="250" /> |
-|      [ReactorX Wrist V1](/reactorx_wrist_V1)      | <img src="reactorx_wrist_V1/images/reactor.png" alt="image" height="250" /> |
-|    [Dry Erase Holder V1](/dry_erase_holder_V1)    | <img src="dry_erase_holder_V1/images/marker_holder.png" alt="image" height="250" /> |
-|       [Swiffer Mount V1](/swiffer_mount_V1)       | <img src="swiffer_mount_V1/images/swiffer_holder.png" alt="image" height="250" /> |
-|     [Tray Cup Holder V1](/tray_cup_holder_V1)     | <img src="tray_cup_holder_V1/images/cup_holder.png" alt="image" height="250" /> |
-|              [Puller V1](/puller_v1)              | <img src="puller_v1/images/drawer_pull_A.PNG" alt="image" height="250" /> |
-|        [Stretch RE1 Arm](/stretch_RE1_arm)        | <img src="stretch_RE1_arm/images/arm_A.PNG" alt="image" height="250" /> |
-|      [Stretch RE1 Head](./stretch_RE1_head)       | <img src="stretch_RE1_head/images/stretch_head_A.PNG" alt="image" height="250" /> |
+| [Stretch Dex Wrist](./tool_share/stretch_dex_wrist) | <img src="tool_share/stretch_dex_wrist/images/dex_wrist_A.png" alt="image" height="250" /> |
+| [Stretch Dex Wrist Beta](./tool_share/stretch_dex_wrist_beta) | <img src="tool_share/stretch_dex_wrist_beta/images/dex_wrist_A.png" alt="image" height="250" /> |
+| [Wrist USB Board Camera](./tool_share/wrist_USB_board_camera) | <img src="tool_share/wrist_USB_board_camera/images/wrist_camera_A.png" alt="image" height="250" /> |
+|        [Phone Holder V1](./tool_share/phone_holder_V1)        | <img src="tool_share/phone_holder_V1/images/phone_holder.png" alt="image" height="250" /> |
+|      [ReactorX Wrist V1](./tool_share/reactorx_wrist_V1)      | <img src="tool_share/reactorx_wrist_V1/images/reactor.png" alt="image" height="250" /> |
+|    [Dry Erase Holder V1](./tool_share/dry_erase_holder_V1)    | <img src="tool_share/dry_erase_holder_V1/images/marker_holder.png" alt="image" height="250" /> |
+|       [Swiffer Mount V1](./tool_share/swiffer_mount_V1)       | <img src="tool_share/swiffer_mount_V1/images/swiffer_holder.png" alt="image" height="250" /> |
+|     [Tray Cup Holder V1](./tool_share/tray_cup_holder_V1)     | <img src="tool_share/tray_cup_holder_V1/images/cup_holder.png" alt="image" height="250" /> |
+|              [Puller V1](./tool_share/puller_v1)              | <img src="tool_share/puller_v1/images/drawer_pull_A.PNG" alt="image" height="250" /> |
+|        [Stretch RE1 Arm](./tool_share/stretch_RE1_arm)        | <img src="tool_share/stretch_RE1_arm/images/arm_A.PNG" alt="image" height="250" /> |
+|      [Stretch RE1 Head](./tool_share/stretch_RE1_head)       | <img src="tool_share/stretch_RE1_head/images/stretch_head_A.PNG" alt="image" height="250" /> |
 
 
 ## Licenses
