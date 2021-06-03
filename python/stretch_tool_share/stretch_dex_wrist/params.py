@@ -58,7 +58,7 @@ params = {
         'pitch_up_thresh': 0.1,
         'limit_pitch_up_palm_down': {'pitch': [None, 0.45], 'yaw': [-0.50, 3.14]},
         'limit_pitch_up_palm_side': {'pitch': [None, 0.45], 'yaw': [-0.50, 3.14]},
-        'limit_pitch_up_palm_up': {'pitch': [None, 0], 'yaw': [None, 3.14]},
+        'limit_pitch_up_palm_up': {'pitch': [None, None], 'yaw': [-0.7, 3.14]},
         'py_class_name': 'CollisionStretchDexWristToSelf',
         'py_module_name': 'stretch_tool_share.stretch_dex_wrist.collision_model',
     },
