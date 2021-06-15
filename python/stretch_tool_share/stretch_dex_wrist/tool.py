@@ -7,7 +7,7 @@ class ToolStretchDexWrist(EndOfArm):
 
     def stow(self):
         # Fold in wrist and gripper
-        print '--------- Stowing ToolStretchDexWrist ----'
+        print('--------- Stowing ToolStretchDexWrist ----')
         self.move_to('wrist_pitch', self.params['stow']['wrist_pitch'])
         self.move_to('wrist_roll', self.params['stow']['wrist_roll'])
         self.move_to('wrist_yaw', self.params['stow']['wrist_yaw'])
