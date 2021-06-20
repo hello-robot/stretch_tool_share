@@ -1,4 +1,4 @@
-![image](images/tool_share_banner.PNG)
+![image](images/banner.pNG)
 
 ## Overview
 
