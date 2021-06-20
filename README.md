@@ -1,4 +1,4 @@
-![image](images/banner.pNG)
+![image](images/banner.png)
 
 ## Overview
 
