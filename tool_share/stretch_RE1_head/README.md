@@ -1,4 +1,4 @@
-![image](images/HelloRobotLogoBar.png)
+![image](../../images/banner.png)
 
 ## Stretch RE1 Head Model
 
