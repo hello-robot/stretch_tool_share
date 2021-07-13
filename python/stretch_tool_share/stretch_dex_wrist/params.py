@@ -65,6 +65,7 @@ params = {
     },
     "wrist_pitch": {
         'flip_encoder_polarity': 1,
+        'enable_runstop': 1,
         'gr': 1.0,
         'id': 15,
         'max_voltage_limit': 15,
@@ -95,6 +96,7 @@ params = {
     },
     "wrist_roll": {
         'flip_encoder_polarity': 0,
+        'enable_runstop': 1,
         'gr': 1.0,
         'id': 16,
         'max_voltage_limit': 16,
