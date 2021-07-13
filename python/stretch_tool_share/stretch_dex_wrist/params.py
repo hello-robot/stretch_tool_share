@@ -11,6 +11,7 @@ params = {
         'use_group_sync_read': 1,
         'retry_on_comm_failure': 1,
         'baud':115200,
+        'dxl_latency_timer': 64,
         'verbose':0,
         'stow': {
             'arm': 0.0,
