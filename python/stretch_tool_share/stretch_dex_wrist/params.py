@@ -15,11 +15,11 @@ params = {
         'verbose':0,
         'stow': {
             'arm': 0.0,
-            'lift': 0.38,
+            'lift': 0.2,
             'stretch_gripper': 0.0,
-            'wrist_pitch': -1.57,
+            'wrist_pitch': 0.0,
             'wrist_roll': 0.0,
-            'wrist_yaw': 0.0
+            'wrist_yaw': 3.0
         },
         'devices': {
             'stretch_gripper': {
@@ -71,9 +71,9 @@ params = {
         'max_voltage_limit': 15,
         'min_voltage_limit': 11,
         'motion': {
-            'default': {'accel': 8.0, 'vel': 3.0},
-            'fast': {'accel': 10.0, 'vel': 5.0},
-            'max': {'accel': 12, 'vel': 8},
+            'default': {'accel': 6.0, 'vel': 2.0},
+            'fast': {'accel': 8.0, 'vel': 4.0},
+            'max': {'accel': 10.0, 'vel': 5.0},
             'slow': {'accel': 4.0, 'vel': 1.0}
         },
         'pid': [400, 0, 200],

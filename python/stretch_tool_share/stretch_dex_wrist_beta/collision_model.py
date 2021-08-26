@@ -18,8 +18,7 @@ class CollisionStretchDexWristToSelf(RobotCollisionModel):
     def step(self, status):
         x_roll=status['end_of_arm']['wrist_roll']['pos']
         x_pitch = status['end_of_arm']['wrist_pitch']['pos']
-        x_yaw = status['end_of_arm']['wrist_yaw']['pos']
-
+        allow_expand_range={'wrist_yaw':[False, False],'wrist_pitch':[False, False],'wrist_roll':[False, False]}
         if x_pitch>self.params['pitch_up_thresh']:
             if x_roll<=deg_to_rad(-135) or x_roll>=deg_to_rad(135): #Servo body up
                 workspace='limit_pitch_up_palm_up'
@@ -27,10 +26,10 @@ class CollisionStretchDexWristToSelf(RobotCollisionModel):
                 workspace='limit_pitch_up_palm_side'
             if x_roll<=deg_to_rad(45) and x_roll>=deg_to_rad(-45): #Servo body down
                 workspace='limit_pitch_up_palm_down'
-            w={ 'wrist_yaw':self.params[workspace]['yaw'],'wrist_pitch':self.params[workspace]['pitch'],'wrist_roll':[None, None]}
-            return w
+            w={ 'wrist_yaw':self.params[workspace]['yaw'],'wrist_pitch':self.params[workspace]['pitch'],'wrist_roll':[float('-inf'), float('inf')]}
+            return w,allow_expand_range
         else:
-            return  {'wrist_yaw':[None,None],'wrist_pitch':[None,None],'wrist_roll':[None, None]}
+            return  {'wrist_yaw':[float('-inf'),float('inf')],'wrist_pitch':[float('-inf'),float('inf')],'wrist_roll':[float('-inf'), float('inf')]},allow_expand_range
 
 class CollisionStretchDexWristToBase(RobotCollisionModel):
     """
