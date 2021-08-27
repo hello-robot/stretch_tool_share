@@ -45,11 +45,11 @@ if w is not None:
         print('x: pose X')
         print('y: pose Y')
         print('z: pose zero')
-        print '1: speed slow'
-        print '2: speed default'
-        print '3: speed fast'
-        print '4: speed max'
-        print '-------------------'
+        print('1: speed slow')
+        print('2: speed default')
+        print('3: speed fast')
+        print('4: speed max')
+        print('-------------------')
 
     def step_interaction():
         global v_des, a_des
