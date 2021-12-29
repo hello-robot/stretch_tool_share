@@ -74,7 +74,8 @@ params = {
             'default': {'accel': 8.0, 'vel': 3.0},
             'fast': {'accel': 10.0, 'vel': 5.0},
             'max': {'accel': 12, 'vel': 8},
-            'slow': {'accel': 4.0, 'vel': 1.0}
+            'slow': {'accel': 4.0, 'vel': 1.0},
+            'trajectory_max': {'accel_r': 16.0, 'vel_r': 8.0},
         },
         'pid': [400, 0, 200],
         'pwm_homing': [0, 0],
@@ -105,7 +106,8 @@ params = {
             'default': {'accel': 8.0, 'vel': 3.0},
             'fast': {'accel': 10.0, 'vel': 5.0},
             'max': {'accel': 12, 'vel': 8},
-            'slow': {'accel': 4.0, 'vel': 1.0}
+            'slow': {'accel': 4.0, 'vel': 1.0},
+            'trajectory_max': {'accel_r': 16.0, 'vel_r': 8.0},
         },
         'pid': [800, 0, 0],
         'pwm_homing': [0, 0],
