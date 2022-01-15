@@ -13,6 +13,7 @@ class ToolStretchDexWristBeta(EndOfArm):
         self.move_to('wrist_roll', self.params['stow']['wrist_roll'])
         self.move_to('wrist_yaw', self.params['stow']['wrist_yaw'])
         self.move_to('stretch_gripper', self.params['stow']['stretch_gripper'])
+
     def home(self):
         self.motors['stretch_gripper'].home()
         if self.motors['wrist_pitch'].status['pos']>0:

@@ -1,10 +1,9 @@
 
-
-
 params = {
     'robot_sentry': {
         'wrist_pitch_overload': 1,
-        'wrist_roll_overload': 1},
+        'wrist_roll_overload': 1,
+    },
     "tool_stretch_dex_wrist": {
         'py_class_name': 'ToolStretchDexWrist',
         'py_module_name': 'stretch_tool_share.stretch_dex_wrist_beta.tool',
@@ -12,7 +11,6 @@ params = {
         'retry_on_comm_failure': 1,
         'baud':115200,
         'dxl_latency_timer': 64,
-        'verbose':0,
         'stow': {
             'arm': 0.0,
             'lift': 0.38,
@@ -93,7 +91,6 @@ params = {
         'zero_t': 1024,
         'baud':115200,
         'retry_on_comm_failure':1,
-        'verbose': 0
     },
     "wrist_roll": {
         'flip_encoder_polarity': 0,
@@ -125,6 +122,5 @@ params = {
         'zero_t': 2048,
         'baud': 115200,
         'retry_on_comm_failure': 1,
-        'verbose': 0
     }
 }

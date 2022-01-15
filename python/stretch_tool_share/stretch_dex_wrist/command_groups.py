@@ -2,13 +2,20 @@ from hello_helpers.simple_command_group import SimpleCommandGroup
 
 
 class WristPitchCommandGroup(SimpleCommandGroup):
-    def __init__(self, range_rad, robot=None):
-        if (range_rad is None and robot is not None and robot.end_of_arm is not None
-            and robot.end_of_arm.is_tool_present('WristPitch')):
-            range_ticks = robot.end_of_arm.motors['wrist_pitch'].params['range_t']
-            range_rad = (robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[1]),
-                         robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[0]))
-        SimpleCommandGroup.__init__(self, 'joint_wrist_pitch', range_rad)
+    def __init__(self, range_rad=None, node=None):
+        SimpleCommandGroup.__init__(self, 'joint_wrist_pitch', range_rad, node=node)
+
+    def update_joint_range(self, joint_range, node=None):
+        if joint_range is not None:
+            self.range = joint_range
+            return
+
+        if node is None:
+            return # cannot calculate range without Stretch Body handle
+        range_ticks = node.robot.end_of_arm.motors['wrist_pitch'].params['range_t']
+        range_rad = (node.robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[1]),
+                     node.robot.end_of_arm.motors['wrist_pitch'].ticks_to_world_rad(range_ticks[0]))
+        self.range = range_rad
 
     def init_execution(self, robot, robot_status, **kwargs):
         if self.active:
@@ -31,13 +38,20 @@ class WristPitchCommandGroup(SimpleCommandGroup):
 
 
 class WristRollCommandGroup(SimpleCommandGroup):
-    def __init__(self, range_rad, robot=None):
-        if (range_rad is None and robot is not None and robot.end_of_arm is not None
-            and robot.end_of_arm.is_tool_present('WristRoll')):
-            range_ticks = robot.end_of_arm.motors['wrist_roll'].params['range_t']
-            range_rad = (robot.end_of_arm.motors['wrist_roll'].ticks_to_world_rad(range_ticks[0]),
-                         robot.end_of_arm.motors['wrist_roll'].ticks_to_world_rad(range_ticks[1]))
-        SimpleCommandGroup.__init__(self, 'joint_wrist_roll', range_rad)
+    def __init__(self, range_rad=None, node=None):
+        SimpleCommandGroup.__init__(self, 'joint_wrist_roll', range_rad, node=node)
+
+    def update_joint_range(self, joint_range, node=None):
+        if joint_range is not None:
+            self.range = joint_range
+            return
+
+        if node is None:
+            return # cannot calculate range without Stretch Body handle
+        range_ticks = node.robot.end_of_arm.motors['wrist_roll'].params['range_t']
+        range_rad = (node.robot.end_of_arm.motors['wrist_roll'].ticks_to_world_rad(range_ticks[0]),
+                     node.robot.end_of_arm.motors['wrist_roll'].ticks_to_world_rad(range_ticks[1]))
+        self.range = range_rad
 
     def init_execution(self, robot, robot_status, **kwargs):
         if self.active:

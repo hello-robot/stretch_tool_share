@@ -1,6 +1,6 @@
 from stretch_body.dynamixel_hello_XL430 import DynamixelHelloXL430
-from stretch_body.hello_utils import *
-import logging
+import stretch_body.hello_utils as hu
+
 
 class WristPitch(DynamixelHelloXL430):
     """
@@ -8,9 +8,7 @@ class WristPitch(DynamixelHelloXL430):
     """
     def __init__(self, chain=None):
         DynamixelHelloXL430.__init__(self,'wrist_pitch',chain)
-        self.logger = logging.getLogger('robot.wrist_pitch')
-        self.poses = {'up': deg_to_rad(56.0), 'forward': deg_to_rad(0.0), 'down': deg_to_rad(-90.0)}
-        self.sentry_active=False
+        self.poses = {'up': hu.deg_to_rad(56.0), 'forward': hu.deg_to_rad(0.0), 'down': hu.deg_to_rad(-90.0)}
 
     def home(self):
         """
@@ -33,12 +31,12 @@ class WristPitch(DynamixelHelloXL430):
         It works by backing off the commanded position from the current position
         so as to lower the steady state error of the PID controller
         """
+        DynamixelHelloXL430.step_sentry(self,robot)
         if self.robot_params['robot_sentry']['wrist_pitch_overload']:
             if self.status['stall_overload']:
                 if self.status['effort']>0:
                     self.move_by(self.params['stall_backoff'])
-                    self.logger.info('Backoff at stall overload')
+                    self.logger.debug('Backoff at stall overload')
                 else:
                     self.move_by(-1*self.params['stall_backoff'])
-                    self.logger.info('Backoff at stall overload')
-        DynamixelHelloXL430.step_sentry(self,robot)
+                    self.logger.debug('Backoff at stall overload')
