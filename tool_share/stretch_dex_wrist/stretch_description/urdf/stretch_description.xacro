@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="stretch_description">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="stretch">
 
     <xacro:include filename="$(find stretch_tool_share)/tool_share/stretch_dex_wrist/stretch_description/urdf/stretch_dex_wrist.xacro" />
   <!--<xacro:include filena$(find stretch_description)/urdfme="stretch_gripper.xacro" /> -->
