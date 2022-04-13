@@ -25,7 +25,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://stretch_description/meshes/link_wrist_yaw_bottom.STL" />
+          filename="package://stretch_tool_share/tool_share/stretch_dex_wrist/stretch_description/meshes/link_wrist_yaw_bottom.STL" />
       </geometry>
       <material
         name="">
@@ -39,7 +39,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://stretch_description/meshes/link_wrist_yaw_bottom.STL" />
+          filename="package://stretch_tool_share/tool_share/stretch_dex_wrist/stretch_description/meshes/link_wrist_yaw_bottom.STL" />
       </geometry>
     </collision>
   </link>
@@ -78,7 +78,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://stretch_description/meshes/link_wrist_pitch.STL" />
+          filename="package://stretch_tool_share/tool_share/stretch_dex_wrist/stretch_description/meshes/link_wrist_pitch.STL" />
       </geometry>
       <material
         name="">
@@ -92,7 +92,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://stretch_description/meshes/link_wrist_pitch.STL" />
+          filename="package://stretch_tool_share/tool_share/stretch_dex_wrist/stretch_description/meshes/link_wrist_pitch.STL" />
       </geometry>
     </collision>
   </link>
@@ -132,7 +132,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://stretch_description/meshes/link_wrist_roll.STL" />
+          filename="package://stretch_tool_share/tool_share/stretch_dex_wrist/stretch_description/meshes/link_wrist_roll.STL" />
       </geometry>
       <material
         name="">
@@ -146,7 +146,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://stretch_description/meshes/link_wrist_roll.STL" />
+          filename="package://stretch_tool_share/tool_share/stretch_dex_wrist/stretch_description/meshes/link_wrist_roll.STL" />
       </geometry>
     </collision>
   </link>
@@ -186,7 +186,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://stretch_description/meshes/link_straight_gripper.STL" />
+          filename="package://stretch_tool_share/tool_share/stretch_dex_wrist/stretch_description/meshes/link_straight_gripper.STL" />
       </geometry>
       <material
         name="">
@@ -200,7 +200,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://stretch_description/meshes/link_straight_gripper.STL" />
+          filename="package://stretch_tool_share/tool_share/stretch_dex_wrist/stretch_description/meshes/link_straight_gripper.STL" />
       </geometry>
     </collision>
   </link>
