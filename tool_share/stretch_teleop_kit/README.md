@@ -24,12 +24,11 @@ The Stretch Teleop Kit uses [two Spinel UC20MPE_F185 USB cameras](https://store.
 
 Hello Robot has [provided the STL files, BOM, and assembly instructions necessary](images/Stretch_RE1_Teleop_Kit_Build.pdf) to build your own Stretch Teleop Kit. Alternatively, the kit is [available for sale by Hello Robot](https://hello-robot.com/). 
 
-**Note if building your own kit:**: The Spinel cameras come with a custom USB to JST ZH cable. We recommend using a custom length cable however in order to improve the cable routing of your system. Please contact Hello Robot for details. 
+**Note if building your own kit:*: The Spinel cameras come with a custom USB to JST ZH cable. We recommend using a custom length cable however in order to improve the cable routing of your system. Please contact Hello Robot for details. 
 
-#### 3D Printed Parts
-
-| [3DP-808_Teleop_Camera_Mount_Front.STL](CAD/3DP-808_Teleop_Camera_Mount_Front.STL) |
+| 3D Printed Parts                                             |
 | ------------------------------------------------------------ |
+| [3DP-808_Teleop_Camera_Mount_Front.STL](CAD/3DP-808_Teleop_Camera_Mount_Front.STL) |
 | [3DP-809_Head_Teleop_Mount_Back.STL](CAD/3DP-809_Head_Teleop_Mount_Back.STL) |
 | [3DP-810_Head_Teleop_Mount.STL](CAD/3DP-810_Head_Teleop_Mount.STL) |
 | [3DP-811_Gripper_Teleop_Mount_Back.STL](CAD/3DP-811_Gripper_Teleop_Mount_Back.STL) |
