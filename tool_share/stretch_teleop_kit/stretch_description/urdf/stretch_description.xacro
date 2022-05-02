@@ -2,7 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="stretch_description">
 
   <xacro:include filename="stretch_gripper.xacro" />
-  <xacro:include filename="$(find stretch_description)/urdf/stretch_teleop_kit.xacro" />
+  <xacro:include filename="stretch_teleop_kit.xacro" />
   <!--<xacro:include filename="stretch_gripper_with_puller.xacro" />-->
   <!--<xacro:include filename="stretch_dry_erase_marker.xacro" />-->
     
