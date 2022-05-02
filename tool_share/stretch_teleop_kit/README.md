@@ -46,27 +46,44 @@ The Stretch Teleop Kit includes the [open-source teleoperation interface (beta)]
 
 #### URDF
 
-The Stretch RE1 URDF can be augmented with these two cameras as well. The URDF information [is found here](./stretch_description). To add the Teleop Kit to your URDF:
+The Stretch RE1 URDF can be augmented with these two cameras as well. The URDF information [is found here](./stretch_description).
+
+To add the Teleop Kit to your URDF:
 
 ```bash
-
 cd ~/catkin_ws/src/stretch_ros/
 git pull
 
 cd ~/repos
 git clone https://github.com/hello-robot/stretch_tool_share
-cd ~/repos/stretch_tool_share
 
 cd ~/repos/stretch_tool_share/tool_share/stretch_teleop_kit/stretch_description
 cp urdf/stretch_teleop_kit.xacro ~/catkin_ws/src/stretch_ros/stretch_description/urdf
 cp urdf/stretch_description.xacro ~/catkin_ws/src/stretch_ros/stretch_description/urdf
 cp meshes/*teleop*.STL ~/catkin_ws/src/stretch_ros/stretch_description/meshes
-
 ```
 
 
 
 ### Gazebo
+The Stretch RE1 robot with the Teleop Kit can also be simulated with [Gazebo](https://gazebosim.org/) simulator. The information on Stretch robot's Gazebo implementation can be found here [stretch_gazebo](https://github.com/hello-robot/stretch_ros/tree/master/stretch_gazebo).
+
+To add Teleop kit to the Stretch Gazebo implementation:
+
+```bash
+cd ~/catkin_ws/src/stretch_ros/
+git pull
+
+cd ~/repos
+git clone https://github.com/hello-robot/stretch_tool_share
+
+cd ~/repos/stretch_tool_share/tool_share/stretch_teleop_kit/stretch_description
+cp urdf/stretch_teleop_kit.xacro ~/catkin_ws/src/stretch_ros/stretch_description/urdf
+cp urdf/stretch_gazebo.urdf.xacro ~/catkin_ws/src/stretch_ros/stretch_gazebo/urdf/stretch_gazebo.urdf.xacro
+cp meshes/*teleop*.STL ~/catkin_ws/src/stretch_ros/stretch_description/meshes
+```
+
+During Gazebo simulation the two Teleop camera's video streams would be published to the topics "teleop/gripper_camera" and "teleop/head_camera".
 
 <img src="images/teleop_gazebo.png" alt="image" height="400" />
 
