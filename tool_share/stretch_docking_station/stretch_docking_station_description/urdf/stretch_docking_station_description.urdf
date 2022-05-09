@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="stretch_docking_station_description">
+  <link
+    name="link_docking_base">
+    <inertial>
+      <origin
+        xyz="-0.254149269932309 3.81515530082815E-06 0.0672165786884313"
+        rpy="0 0 0" />
+      <mass
+        value="0.386736435737988" />
+      <inertia
+        ixx="0.00265206591275721"
+        ixy="1.75248831755847E-09"
+        ixz="0.000319192136882331"
+        iyy="0.00232187105372072"
+        iyz="8.0314675465915E-10"
+        izz="0.00203196118859968" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://stretch_docking_station_description/meshes/link_docking_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://stretch_docking_station_description/meshes/link_docking_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link_docking_aruco">
+    <inertial>
+      <origin
+        xyz="1.56271649537788E-16 5.27355936696949E-16 0.000122474626779404"
+        rpy="0 0 0" />
+      <mass
+        value="0.00296244147835488" />
+      <inertia
+        ixx="3.01013821594583E-06"
+        ixy="-6.25106155472466E-21"
+        ixz="-1.74011265269227E-22"
+        iyy="3.01013821594584E-06"
+        iyz="1.05879118406788E-22"
+        izz="6.02024675804039E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://stretch_docking_station_description/meshes/link_docking_aruco.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://stretch_docking_station_description/meshes/link_docking_aruco.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_docking_aruco"
+    type="fixed">
+    <origin
+      xyz="-0.326626467133239 0 0.205139862987062"
+      rpy="-1.09955742875643 0 -1.5707963267949" />
+    <parent
+      link="link_docking_base" />
+    <child
+      link="link_docking_aruco" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
