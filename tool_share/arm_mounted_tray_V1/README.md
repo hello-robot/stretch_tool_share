@@ -8,7 +8,7 @@
 
 <img src="./images/bringing_condiments.jpg" alt="Stretch carrying condiments" height="400" />
 
-This tray conveniently clips onto stretch's first arm link to provide a surface for carrying objects, including two hooks in the front and a cup holder to assist a variety of tasks. 
+This tray conveniently clips onto Stretch's first arm link to provide a surface for carrying objects, including two hooks in the front and a cup holder to assist a variety of tasks. 
 
 ## Parts List
 
