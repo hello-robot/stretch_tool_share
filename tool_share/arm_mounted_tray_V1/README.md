@@ -20,7 +20,7 @@ This tray conveniently clips onto Stretch's first arm link to provide a surface 
 | [M4 Nut](https://www.mcmaster.com/91828A231/)       | 4 | McMaster-Carr |
 
 ## Assembly instructions
-[View 3D assembly](CAD/tray_asm.SLDASM)
+[View 3D assembly](CAD/stretch_arm_tray.STL)
 
 <img src="images/tray_exploded.JPG" alt="Exploded View"  height=700 />
 
