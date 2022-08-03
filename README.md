@@ -25,8 +25,8 @@ We'd love it if you shared your creations with the community. We recommend you c
 |              [Puller V1](./tool_share/puller_v1)              |        <img src="tool_share/puller_v1/images/drawer_pull_A.PNG" alt="image" height="250" />        |
 |        [Stretch RE1 Arm](./tool_share/stretch_RE1_arm)        |         <img src="tool_share/stretch_RE1_arm/images/arm_A.PNG" alt="image" height="250" />         |
 |       [Stretch RE1 Head](./tool_share/stretch_RE1_head)       |    <img src="tool_share/stretch_RE1_head/images/stretch_head_A.PNG" alt="image" height="250" />    |
-|       [Arm-Mounted Tray](./tool_share/arm_mounted_tray_V1)       |    <img src="tool_share/arm_mounted_tray_V1/images/stretch_tray.JPG" alt="image" height="250" />    |
-
+|       [Easy-Access Card Holder](./tool_share/card_holder_V1.5)|    <img src="tool_share/card_holder_V1.5/images/card_holder.gif" alt="image" height="250" />    |
+|       [Arm-Mounted Tray](./tool_share/arm_mounted_tray_V1)    |    <img src="tool_share/arm_mounted_tray_V1/images/stretch_tray.JPG" alt="image" height="250" />    |
 
 ## Licenses
 
