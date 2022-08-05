@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!python
 from stretch_body.hello_utils import *
 import sys
 import stretch_body.wrist_yaw as wrist_yaw
