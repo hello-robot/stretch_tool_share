@@ -7,7 +7,7 @@ tool_scripts={script_path+'/'+f for f in listdir(script_path) if isfile(join(scr
 
 setuptools.setup(
     name="hello_robot_stretch_tool_share",
-    version='0.2.3',
+    version='0.2.4',
     author="Hello Robot Inc.",
     author_email="support@hello-robot.com",
     description="Stretch RE1 end of arm tool interfaces",

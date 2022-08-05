@@ -15,6 +15,6 @@ class ToolStretchDexWrist(EndOfArm):
 
     def home(self):
         self.motors['stretch_gripper'].home()
-        if self.motors['wrist_pitch'].status['pos']>0:
-            self.motors['wrist_pitch'].move_to(0)
+        self.motors['wrist_pitch'].move_to(0)
+        self.motors['wrist_roll'].move_to(0)
         self.motors['wrist_yaw'].home()

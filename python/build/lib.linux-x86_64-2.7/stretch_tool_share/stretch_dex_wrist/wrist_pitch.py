@@ -14,7 +14,7 @@ class WristPitch(DynamixelHelloXL430):
         """
         Home to hardstops
         """
-        self.pose('forward')
+        pass
 
     def pose(self,p,v_r=None,a_r=None):
         """
