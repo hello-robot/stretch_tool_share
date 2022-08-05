@@ -14,7 +14,7 @@ class WristRoll(DynamixelHelloXL430):
         """
         Home to hardstops
         """
-        pass
+        self.pose('forward')
 
     def pose(self,p,v_r=None,a_r=None):
         """
