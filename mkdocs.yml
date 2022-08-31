@@ -88,6 +88,8 @@ nav:
     - Swiffer Mount: ./tool_share/swiffer_mount_V1/README.md
     - Tray Cup Holder: ./tool_share/tray_cup_holder_V1/README.md
     - Wrist USB Camera: ./tool_share/wrist_USB_board_camera/README.md
+    - Arm Mounted Tray: ./tool_share/arm_mounted_tray_V1/README.md
+    - Card Holder: ./tool_share/card_holder_V1.5/README.md
     - Stretch Dex Wrist: ./tool_share/stretch_dex_wrist/README.md
     - Stretch Docking Station: ./tool_share/stretch_docking_station/README.md
     - Stretch RE1 Arm: ./tool_share/stretch_RE1_arm/README.md

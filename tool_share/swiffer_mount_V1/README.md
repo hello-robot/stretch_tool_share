@@ -12,13 +12,13 @@ This tool allows a Swiffer duster to your Stretch. The designs uses a clamp to h
 
 ## Parts List
 
-| Item | Qty | Vendor           |
-| ------------- |:-------------:| -----: |
-| [M5x50mm BHCS](https://www.mcmaster.com/92095A228) | 3 | McMaster-Carr|
-| [M5 nut](https://www.mcmaster.com/93330a449) | 4 | McMaster-Carr|
-| [swiffer_mount.STL](CAD/swiffer_mount.STL) | 1 |    PLA 3D printer|
-| [swiffer_mount_clamp.STL](CAD/swiffer_mount_clam.STL) | 1 | PLA 3D printer |
-| [wrist_end_cap_5mm.STL](CAD/wrist_end_cap_5mm.STL) | 1 | PLA 3D printer |
+| Item                                                                                                                                         | Qty | Vendor           |
+|----------------------------------------------------------------------------------------------------------------------------------------------|:-------------:| -----: |
+| [M5x50mm BHCS](https://www.mcmaster.com/92095A228)                                                                                           | 3 | McMaster-Carr|
+| [M5 nut](https://www.mcmaster.com/93330a449)                                                                                                 | 4 | McMaster-Carr|
+| [swiffer_mount.STL](CAD/swiffer_mount.STL)                                                                                                   | 1 |    PLA 3D printer|
+| [swiffer_mount_clamp.STL](CAD/swiffer_mount_clamp.STL)                                                                                       | 1 | PLA 3D printer |
+| [wrist_end_cap_5mm.STL](CAD/wrist_end_cap_5mm.STL)                                                                                           | 1 | PLA 3D printer |
 | [Swiffer Sweeper Cleaner Dry and Wet Mop Kit](https://www.amazon.com/gp/product/B00N6FT6TM/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1) | 1 | Amazon |
 
 ## Assembly instructions
