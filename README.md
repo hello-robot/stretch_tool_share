@@ -15,7 +15,6 @@ We'd love it if you shared your creations with the community. We recommend you c
 |      [Stretch Dex Wrist](./tool_share/stretch_dex_wrist)      |     <img src="tool_share/stretch_dex_wrist/images/dex_wrist_A.png" alt="image" height="250" />     |
 |     [Stretch Teleop Kit](./tool_share/stretch_teleop_kit)     |  <img src="tool_share/stretch_teleop_kit/images/teleop_kit_full.jpg" alt="image" height="250" />   |
 | [Stretch Docking Station](./tool_share/stretch_docking_station) | <img src="tool_share/stretch_docking_station/images/docking_station_A.png" alt="image" height="250" /> |
-| [Stretch Dex Wrist Beta](./tool_share/stretch_dex_wrist_beta) |  <img src="tool_share/stretch_dex_wrist_beta/images/dex_wrist_A.png" alt="image" height="250" />   |
 | [Wrist USB Board Camera](./tool_share/wrist_USB_board_camera) | <img src="tool_share/wrist_USB_board_camera/images/wrist_camera_A.png" alt="image" height="250" /> |
 |        [Phone Holder V1](./tool_share/phone_holder_V1)        |     <img src="tool_share/phone_holder_V1/images/phone_holder.png" alt="image" height="250" />      |
 |      [ReactorX Wrist V1](./tool_share/reactorx_wrist_V1)      |       <img src="tool_share/reactorx_wrist_V1/images/reactor.png" alt="image" height="250" />       |

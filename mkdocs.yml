@@ -89,11 +89,10 @@ nav:
     - Tray Cup Holder: ./tool_share/tray_cup_holder_V1/README.md
     - Wrist USB Camera: ./tool_share/wrist_USB_board_camera/README.md
     - Stretch Dex Wrist: ./tool_share/stretch_dex_wrist/README.md
-    - Stretch Dex Wrist Beta: ./tool_share/stretch_dex_wrist_beta/README.md
     - Stretch Docking Station: ./tool_share/stretch_docking_station/README.md
     - Stretch RE1 Arm: ./tool_share/stretch_RE1_arm/README.md
-    - Stretch RE1 Head: ./tool_share/stretch_RE1-head/README.md
-    - Stretch Teleop Kit: ../tool_share/stretch_teleop_kit/README.md
+    - Stretch RE1 Head: ./tool_share/stretch_RE1_head/README.md
+    - Stretch Teleop Kit: ./tool_share/stretch_teleop_kit/README.md
 
 
 
