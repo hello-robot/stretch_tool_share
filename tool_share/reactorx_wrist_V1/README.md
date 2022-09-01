@@ -143,12 +143,10 @@ You can change the baud for a joint (eg ID 15)
 
 Ensure that all baud rates are at 115200 for the end-of-arm (IDs 13, 14, 15, 16)
 
-#### Run Installation Script
+#### Jog the Wrist
 
-```
-$ cd ~/repos
-$ git clone https://github.com/hello-robot/stretch_install
-$ cd ./stretch_install
-$ git pull
-$ ./stretch_new_dex_wrist_install.sh
+Try out the jog tool
+
+```bash
+>>$ reactor_wrist_jog.py
 ```
