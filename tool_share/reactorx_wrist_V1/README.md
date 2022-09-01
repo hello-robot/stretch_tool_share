@@ -87,4 +87,68 @@ Now attach your wrist to the Stretch tool plate using the Robotis Frame and thei
 
 ## Code
 
-You're ready to start using your wrist. You will want to [add the wrist YAML](./yaml/stretch_re1_tool_params.yaml) to your copy of `stretch_re1_user_params.yaml`. See the [demo code here](python/reactor_wrist.py)  to test drive your wrist.
+You're ready to start using your wrist. Once it is plugged into the robot you will want to:
+
+### Install Stretch Tool Share
+
+```bash
+>>$ pip install -U hello-robot-stretch-tool-share
+```
+
+#### Backup User YAML
+
+```
+$ cd $HELLO_FLEET_PATH/$HELLO_FLEET_ID
+$ cp stretch_user_params.yaml stretch_user_params.yaml.bak
+```
+
+#### Update User YAML
+
+```yaml
+   robot:
+     tool: tool_reactor_wrist
+     params: ['stretch_tool_share.reactorx_wrist_v1.params']
+   lift:
+     i_feedforward: 0.75
+   hello-motor-lift:
+     gains:
+       i_safety_feedforward: 0.75
+```
+
+#### Set the Baud Rate
+
+The default YAML for the Reactor wrist is set to 115200. Your robot may be running at 57600. 
+
+You can check the current baud settings by:
+
+```bash
+>>$ stretch_params.py | grep baud
+stretch_body.robot_params.nominal_params   param.end_of_arm.baud                                                  115200                        
+stretch_body.robot_params.nominal_params   param.head.baud                                                        115200                        
+stretch_body.robot_params.nominal_params   param.head_pan.baud                                                    115200                        
+stretch_body.robot_params.nominal_params   param.head_tilt.baud                                                   115200                        
+stretch_body.robot_params.nominal_params   param.stretch_gripper.baud                                             115200                        
+stretch_body.robot_params.nominal_params   param.tool_none.baud                                                   115200                        
+stretch_body.robot_params.nominal_params   param.tool_stretch_gripper.baud                                        115200                        
+stretch_body.robot_params.nominal_params   param.wrist_yaw.baud                                                   115200  
+```
+
+
+
+You can change the baud for a joint (eg ID 15)
+
+```bash
+>>$ REx_dynamixel_set_baud.py /dev/hello-dynamixel-wrist 15 115200
+```
+
+Ensure that all baud rates are at 115200 for the end-of-arm (IDs 13, 14, 15, 16)
+
+#### Run Installation Script
+
+```
+$ cd ~/repos
+$ git clone https://github.com/hello-robot/stretch_install
+$ cd ./stretch_install
+$ git pull
+$ ./stretch_new_dex_wrist_install.sh
+```

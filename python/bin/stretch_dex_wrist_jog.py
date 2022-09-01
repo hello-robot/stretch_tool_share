@@ -2,8 +2,8 @@
 from stretch_body.hello_utils import *
 import sys
 import stretch_body.wrist_yaw as wrist_yaw
-import stretch_tool_share.stretch_dex_wrist_beta.wrist_pitch as wrist_pitch
-import stretch_tool_share.stretch_dex_wrist_beta.wrist_roll as wrist_roll
+import stretch_tool_share.stretch_dex_wrist.wrist_pitch as wrist_pitch
+import stretch_tool_share.stretch_dex_wrist.wrist_roll as wrist_roll
 import argparse
 print_stretch_re_use()
 
