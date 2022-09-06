@@ -4,7 +4,7 @@
 
 **Create by**: Hello Robot Inc. and Henry Evans
 
-A simple part to help stretch push buttons or anything else you can imagine. The concave shape is designed to avoid blocking the gripper teleop camera, allowing for high-percision and easy use.  
+A simple part to help Stretch push buttons or anything else you can imagine. The concave shape is designed to avoid blocking the gripper teleop camera, allowing for high-percision and easy use.  
 
 <img src="images/in_action.jpeg" alt="image"  height=400 />
 
