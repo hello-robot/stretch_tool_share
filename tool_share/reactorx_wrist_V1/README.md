@@ -60,7 +60,7 @@ The FR12-S101K frame doesn't allow a X-Series TTL connector to pass through by d
 
 ## Dynamixel Configuration
 
-The Dynamixel servos that come with the Reactor arm need to be reprogrammed with the correct IDs and baudrate. Out of the box, the Reactor servos use a baudrate of 1Mbps while Stretch requires 57600Kbps. To reconfigure the servos:
+The Dynamixel servos that come with the Reactor arm need to be reprogrammed with the correct IDs and baudrate. Out of the box, the Reactor servos use a baudrate of 1Mbps while Stretch requires 115200Kbps. To reconfigure the servos:
 
 1. Download and install the Dynamixel Wizard 2.0 from Robotis
 2. Attach your 3 DOF gripper-wrist to a PC using a U2D2 adapter from Robotis
