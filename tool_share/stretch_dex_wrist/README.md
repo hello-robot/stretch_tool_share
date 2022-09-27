@@ -6,8 +6,8 @@
 
 The [Stretch Dex Wrist](https://hello-robot.com/stretch-dex-wrist) is commercially available from Hello Robot. The following hardware guides are available:
 
-* [RE1 DexWrist Hardware Guide](https://docs.hello-robot.com/0.2/stretch-hardware-guides/dex_wrist_guide_re1/)
-* [RE2 DexWrist Hardware Guide](https://docs.hello-robot.com/0.2/stretch-hardware-guides/dex_wrist_guide_re2/)
+* [RE1 DexWrist Hardware Guide](https://docs.hello-robot.com/0.2/stretch-hardware-guides/docs/dex_wrist_guide_re1/)
+* [RE2 DexWrist Hardware Guide](https://docs.hello-robot.com/0.2/stretch-hardware-guides/docs/dex_wrist_guide_re2/)
 
 
 
