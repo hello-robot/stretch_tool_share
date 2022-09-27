@@ -69,6 +69,8 @@ params = {
         'max_voltage_limit': 15,
         'min_voltage_limit': 11,
         'motion': {
+            'trajectory_vel_ctrl': 1,
+            'trajectory_vel_ctrl_kP': 1.5,
             'default': {'accel': 6.0, 'vel': 2.0},
             'fast': {'accel': 8.0, 'vel': 4.0},
             'max': {'accel': 10.0, 'vel': 5.0},
@@ -101,6 +103,8 @@ params = {
         'max_voltage_limit': 16,
         'min_voltage_limit': 9,
         'motion': {
+            'trajectory_vel_ctrl': 1,
+            'trajectory_vel_ctrl_kP': 1.5,
             'default': {'accel': 8.0, 'vel': 3.0},
             'fast': {'accel': 10.0, 'vel': 5.0},
             'max': {'accel': 12, 'vel': 8},
