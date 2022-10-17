@@ -174,7 +174,7 @@ Gripper Angle = π/2 &rarr; Gripper Angle = 0
 Pitch, Roll, Gripper Angle = 0
 
 ### Modifying Reactor X Wrist Parameters
-To customize the range of motion or zero position of any of the gripper joints for your own application, you can modify the 'range_t' and 'zero_t' parameters defined in `stretch_tool_share/python/stretch_tool_share/reactorx_wrist_v1/params.py`, respectively.
+To customize the range of motion or zero position of any of the gripper joints for your own application, you can modify the 'range_t' and 'zero_t' parameters, respectively, defined in `stretch_tool_share/python/stretch_tool_share/reactorx_wrist_v1/params.py`.
 
 Note that your changes will not be applied unless you override the system version of the Python package `hello-robot-stretch-tool-share` with a local install. To do this, execute the file `stretch_tool_share/python/local_install.sh` by navigating to the `stretch_tool_share/python` directory and running:
 
