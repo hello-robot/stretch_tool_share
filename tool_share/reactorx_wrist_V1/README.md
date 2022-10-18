@@ -150,3 +150,34 @@ Try out the jog tool
 ```bash
 >>$ reactor_wrist_jog.py
 ```
+
+## Important Notes
+With the release of the Stretch Dex Wrist, the Reactor Wrist build is not being actively supported by Hello Robot. Parameters describing the range of motion of the wrist pitch, roll, and gripper were most recently updated by [Kavya Puthuveetil](https://kpputhuveetil.github.io/) from [RCHI Lab @ CMU](https://rchi-lab.github.io/) for an independent research project using the Reactor X Wrist in September 2022. As a result, these values may not match the convention used for other end of arm tools in Stretch Tool Share created by Hello Robot. We provide visualizations of the updated range of motion and zero position of each joint here for your reference.
+
+### Wrist Pitch
+<img src="images/pitch_zero2down.gif" alt="image" height="400" />
+Pitch Angle = 0 &rarr; Pitch Angle = π/2
+
+### Wrist Roll
+<img src="images/roll_0290.gif" alt="image" height="400" />
+Roll Angle = 0 &rarr; Roll Angle = π
+
+<img src="images/roll_02-90.gif" alt="image" height="400" />
+Roll Angle = 0 &rarr; Roll Angle = -π
+
+### Gripper
+<img src="images/gripper_open2close.gif" alt="image" height="400" />
+Gripper Angle = π/2 &rarr; Gripper Angle = 0
+
+### Example: All Joints Zeroed
+<img src="images/base_pose.jpg" alt="image" height="400" />
+Pitch, Roll, Gripper Angle = 0
+
+### Modifying Reactor X Wrist Parameters
+To customize the range of motion or zero position of any of the gripper joints for your own application, you can modify the 'range_t' and 'zero_t' parameters, respectively, defined in `stretch_tool_share/python/stretch_tool_share/reactorx_wrist_v1/params.py`.
+
+Note that your changes will not be applied unless you override the system version of the Python package `hello-robot-stretch-tool-share` with a local install. To do this, execute the file `stretch_tool_share/python/local_install.sh` by navigating to the `stretch_tool_share/python` directory and running:
+
+```
+./ local_install.sh
+```
