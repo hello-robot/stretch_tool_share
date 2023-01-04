@@ -4,7 +4,7 @@
 
 **Created by**: Hello Robot Inc
 
-This is an STEP model of the Stretch 2 robot (Nina batch). It includes a poseable SolidWorks SLDASM of the mated STEP files . It can assist the design of your own tools for your Stretch. 
+This is a STEP model of the Stretch 2 robot (Nina batch). It includes a poseable SolidWorks SLDASM of the mated STEP files . It can assist the design of your own tools for your Stretch. 
 
 <img src="images/stretch_2_step.PNG" alt="image" height="400" />
 
