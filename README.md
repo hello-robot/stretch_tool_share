@@ -16,7 +16,7 @@ We'd love it if you shared your creations with the community. We recommend you c
 |    [Stretch Teleop Kit](./tool_share/stretch_teleop_kit)     | <img src="tool_share/stretch_teleop_kit/images/teleop_kit_full.jpg" alt="image" height="250" /> |
 | [Stretch Docking Station](./tool_share/stretch_docking_station) | <img src="tool_share/stretch_docking_station/images/docking_station_A.png" alt="image" height="250" /> |
 | [Wrist USB Board Camera](./tool_share/wrist_USB_board_camera) | <img src="tool_share/wrist_USB_board_camera/images/wrist_camera_A.png" alt="image" height="250" /> |
-|        [Stretch 2 Model](./tool_share/stretch_2_STEP)        | <img src="tool_share/stretch_2_STEP/images/stretch_2_step.png" alt="image" height="250" /> |
+|        [Stretch 2 Model](./tool_share/stretch_2_STEP)        | <img src="tool_share/stretch_2_STEP/images/stretch_2_step.PNG" alt="image" height="250" /> |
 |       [Phone Holder V1](./tool_share/phone_holder_V1)        | <img src="tool_share/phone_holder_V1/images/phone_holder.png" alt="image" height="250" /> |
 |     [ReactorX Wrist V1](./tool_share/reactorx_wrist_V1)      | <img src="tool_share/reactorx_wrist_V1/images/reactor.png" alt="image" height="250" /> |
 |   [Dry Erase Holder V1](./tool_share/dry_erase_holder_V1)    | <img src="tool_share/dry_erase_holder_V1/images/marker_holder.png" alt="image" height="250" /> |
