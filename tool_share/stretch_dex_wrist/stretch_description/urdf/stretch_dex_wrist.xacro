@@ -431,4 +431,21 @@
     <axis
       xyz="0 0 0" />
   </joint>
+
+  <link
+      name="link_grasp_center">
+  </link>
+
+  <joint
+    name="joint_grasp_center"
+    type="fixed">
+    <origin
+      xyz="0 0 0.23"
+      rpy="-1.5707963267949 -1.5707963267949 0" />
+    <parent
+      link="link_straight_gripper" />
+    <child
+      link="link_grasp_center" />
+  </joint>
+
 </robot>
