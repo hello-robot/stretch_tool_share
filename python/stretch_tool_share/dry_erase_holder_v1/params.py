@@ -3,7 +3,7 @@ params = {
         'py_class_name': 'ToolDryEraseHolderV1',
         'py_module_name': 'stretch_tool_share.dry_erase_holder_v1.tool',
         'use_group_sync_read': 1,
-        'baud': 57600,
+        'baud': 115200,
         'retry_on_comm_failure': 1,
         'dxl_latency_timer': 64,
         'verbose':0,
