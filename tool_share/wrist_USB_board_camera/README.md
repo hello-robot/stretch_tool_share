@@ -18,7 +18,7 @@ The camera can be integrated into your robot URDF by integrating its [stretch_de
 | [M2x8mm SHCS](https://www.mcmaster.com/91290A015) | 8 | McMaster-Carr|
 | [M2x6mm Thread Forming Screw](https://www.mcmaster.com/96817A209) | 5 | McMaster-Carr|
 | [Board_Camera_Ball_Shell.STL](CAD/Board_Camera_Ball_Shell.STL) | 1 |    PLA 3D printer|
-| [Board_Camera_Ball_Cover.STL](CAD/Boad_Camera_Ball_Cover.STL) | 1 | PLA 3D printer |
+| [Board_Camera_Ball_Cover.STL](CAD/Board_Camera_Ball_Cover.STL) | 1 | PLA 3D printer |
 | [ELP 2MP USB Board Camera](https://www.amazon.com/ELP-Camera-Megapixel-Windows-Android/dp/B00KA7WSSU/ref=sr_1_3?dchild=1&keywords=elp+camera+cable&qid=1613066230&s=electronics&sr=1-3) (Suggested) | 1 | Amazon / Spinel |
 
 ## Assembly instructions
