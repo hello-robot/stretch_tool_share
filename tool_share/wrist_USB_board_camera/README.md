@@ -29,7 +29,7 @@ The camera can be integrated into your robot URDF by integrating its [stretch_de
 1. Attach the Board_Camera_Ball_Shell to the wrist tool plate using the 8 M2 bolts
 2. Attach the camera to the Board_Camera_Ball_Shell using 4 self-threading screws
 3. Attach the USB cable and route it down and through the wrist yaw passage
-4. Attach the Boad_Camera_Ball_Cover using 1 self-threading screw
+4. Attach the Board_Camera_Ball_Cover using 1 self-threading screw
 5. Plug the USB cable into the USB-A port on the wrist
 
 NOTE: The USB cable that comes with the camera uses a JST-PH connector. You may want to make your own cable with a custom length using a right-angle USB-A cable. This may require a JST-PH crimp tool.
