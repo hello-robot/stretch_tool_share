@@ -19,7 +19,7 @@ cp stretch_description/meshes/*.STL ~/catkin_ws/src/stretch_ros/stretch_descript
 
 cp gazebo_support/stretch_gazebo.urdf.xacro ~/catkin_ws/src/stretch_ros/stretch_gazebo/urdf
 cp gazebo_support/dex_wrist.yaml ~/catkin_ws/src/stretch_ros/stretch_gazebo/config
-cp gazebo_support/cp gazebo.launch ~/catkin_ws/src/stretch_ros/stretch_gazebo/launch
+cp gazebo_support/gazebo.launch ~/catkin_ws/src/stretch_ros/stretch_gazebo/launch
 ```
 During the Gazebo simulation with Dex Wrist, the wrist's Roll and Pitch can be controlled using the spawned "stretch_dex_wrist_controller" of type [position_controllers/JointTrajectoryController](http://wiki.ros.org/joint_trajectory_controller) 
 
