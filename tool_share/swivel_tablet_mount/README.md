@@ -24,9 +24,7 @@ This tool allows a tablet to be attached to the Stretch wrist. The design uses a
 ## Assembly instructions
 [View 3D Assembly](CAD/ASSEM_ball_swivel.STEP)
 
-<img src="images/ball_assembly_exploded.png" alt="image" height="400" />
-
-<img src="images/tablet_assembly_exploded.png" alt="image" height="400" />
+<img src="images/STRETCH_IPAD_2.png" alt="image" height="400" />
 
 1. Remove the rubber cover from the phone holder. You'll see metal plate holding the magnets. Remove the metal plate with a screw driver.
 2. Attach the 'tablet_tape_adapter' to the phone holder, reusing the screw you just remove. Note: If the adapter does not sit flat you may want to clip the plastic 'L' tabs from the holder using side cutters.
