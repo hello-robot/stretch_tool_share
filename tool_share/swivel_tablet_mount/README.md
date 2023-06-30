@@ -14,7 +14,7 @@ This tool allows a tablet to be attached to the Stretch wrist. The design uses a
 
 | Item                                                                                                                                         | Qty | Vendor           |
 |----------------------------------------------------------------------------------------------------------------------------------------------|:-------------:| -----: |
-| [M3x10mm SHCS](https://www.mcmaster.com/93705A813/)                                                     | 2 | McMaster-Carr|
+| [M3x10mm SHCS](https://https://www.mcmaster.com/91290A115/)                                                     | 2 | McMaster-Carr|
 | [Double stick mounting tape 2 3/8"](https://www.amazon.com/gp/product/B09VRXDMWW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | 1 | Amazon |
 | [swivel_adapter_top.STL](CAD/swivel_adapter_top.STL)                                                    | 1 | PLA 3D printer |
 | [swivel_adapter_bottom.STL](CAD/swivel_adapter_bottom.STL)                                              | 1 | PLA 3D printer |                          
