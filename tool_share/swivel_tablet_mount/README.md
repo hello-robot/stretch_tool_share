@@ -6,7 +6,7 @@
 
 This tool allows a tablet to be attached to the Stretch wrist. The design uses an off-the-shelf swivel phone holder, two 3D printed adapter plates, and a die-cut double stick tape..
 
-<img src="images/re1_with_tablet.png" alt="image" height="400" />
+<img src="images/STRETCH_IPAD_1.png" alt="image" height="400" />
 
 <img src="images/Tablet_swivel_mount_ASM_1.jpg" alt="image" height="400" />
 
