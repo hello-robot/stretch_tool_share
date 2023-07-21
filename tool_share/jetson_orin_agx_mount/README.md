@@ -1,10 +1,10 @@
 ![image](../../images/banner.png)
 
-## Swivel Tablet Mount
+## Nvidia Jetson Orin AGX base mount
 
 **Created by**: Hello Robot Inc
 
-This tool allows a tablet to be attached to the Stretch wrist. The design uses an off-the-shelf swivel phone holder, two 3D printed adapter plates, and a die-cut double stick tape..
+This tool allows a Nvidia Jetson Orin AGX to be attached to the Stretch base. The design uses a laser cut piece of Acrylic ordered from Ponoko.com, an off the shelf ethernet cable and a 12volt 16AWG 2.5mm male DC power cable ordered from Amazon.
 
 <img src="images/STRETCH_IPAD_1.png" alt="image" height="400" />
 
@@ -26,10 +26,10 @@ This tool allows a tablet to be attached to the Stretch wrist. The design uses a
 
 <img src="images/STRETCH_IPAD_2.png" alt="image" height="400" />
 
-1. Remove the rubber cover from the phone holder. You'll see metal plate holding the magnets. Remove the metal plate with a screw driver.
-2. Attach the 'tablet_tape_adapter' to the phone holder, reusing the screw you just remove. Note: If the adapter does not sit flat you may want to clip the plastic 'L' tabs from the holder using side cutters.
-3. Unscrew the large nut on the phone holder and disengage the ball from its socket.
-4. Remove the red sticker from the phone holder, exposing the double stick tape. Stick the phone holder firmly onto the 'swivel adapter'
-5. Attach the swivel adapter to the top of the Stretch wrist using the M3 bolts
-6. Attach the tablet_tape_adapter to your tablet in the desired position using the 'double stick mounting tape'
-7. Finally, insert the ball back into the socket of the phone holder. Attach firmly using the large nut.
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
