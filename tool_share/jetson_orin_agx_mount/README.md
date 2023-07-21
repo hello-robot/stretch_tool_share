@@ -6,7 +6,7 @@
 
 This tool allows a Nvidia Jetson Orin AGX to be attached to the Stretch base. The design uses a laser cut piece of Acrylic ordered from Ponoko.com, an off the shelf ethernet cable and a 12volt 16AWG 2.5mm male DC power cable ordered from Amazon.
 
-<img src="images/STRETCH_IPAD_1.png" alt="image" height="400" />
+<img src="images/IMG_3404_Jetson_Mount.jpg" alt="image" height="400" />
 
 <img src="images/Tablet_swivel_mount_ASM_1.jpg" alt="image" height="400" />
 
