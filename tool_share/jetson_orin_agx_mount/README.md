@@ -13,7 +13,7 @@ This tool allows a Nvidia Jetson Orin AGX to be attached to the Stretch base. Th
 
 | Item                                                                                                                                         | Qty | Vendor           |
 |----------------------------------------------------------------------------------------------------------------------------------------------|:-------------:| -----: |
-| [DC Power Pigtails Cable, DC 5.5mm x 2.5mm Male Plug Jack to Bare Wire Open End Power Supply Replacement 3Ft](https://www.amazon.com/gp/product/B09JKNRHBZ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)                                                                                                                                                                                      | 1 | Amazon|
+| [DC Power Pigtails Cable, DC 5.5mm x 2.5mm Male Plug Jack to Bare Wire Open End Power Supply Replacement 3Ft](https://www.amazon.com/gp/product/B09JKNRHBZ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)                                                                                                                                                                                    | 1 | Amazon|
 | [JST VH 3.96 mm Pitch 2 Pin](https://www.amazon.com/pzsmocn-JST-VH-VH-SMT-Terminal-Connector/dp/B089QRPTYS?th=1)                         | 1 | Amazon |
 | [CAT6A Slim Cable UTP Booted 1.5 FT](https://www.amazon.com/gp/product/B07WZQCBBF/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)      | 1 | Amazon |
 | [White Delrin Laser Cut Base](https://www.ponoko.com/materials/white-delrin)                                                             | 1 | Ponoko |
@@ -22,8 +22,8 @@ This tool allows a Nvidia Jetson Orin AGX to be attached to the Stretch base. Th
 | [Cable Tie Mount](https://www.mcmaster.com/7566K12/)                                                                                     | 3 | McMaster-Carr |
 | [Cable Zip Ties 4 Inch](https://www.amazon.com/gp/product/B07V6QLSBP/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)                    | 3 | Amazon |
 | [Phillips Rounded Head Thread-Forming Screws](https://www.mcmaster.com/90380A375/)                                                       | 3 | McMaster-Carr |
-| [Black-Oxide Alloy Steel Button Head Torx Screws](https://www.mcmaster.com/96452A714/)                                                   | 3 | McMaster-Carr |
-| [Torx Flat Head Thread-Cutting Screws for Metal](https://www.mcmaster.com/90390A112/)                                                   | 3 | McMaster-Carr |
+| [Black-Oxide Alloy Steel Button Head Torx Screws](https://www.mcmaster.com/96452A714/)                                                   | 4 | McMaster-Carr |
+| [Torx Flat Head Thread-Cutting Screws for Metal](https://www.mcmaster.com/90390A112/)                                                    | 4 | McMaster-Carr |
 
 
 ## Assembly instructions
