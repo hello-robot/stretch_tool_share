@@ -14,6 +14,7 @@ This tool allows a Nvidia Jetson Orin AGX to be attached to the Stretch base. Th
 | Item                                                                                                                                         | Qty | Vendor           |
 |----------------------------------------------------------------------------------------------------------------------------------------------|:-------------:| -----: |
 | [DC Power Pigtails Cable, DC 5.5mm x 2.5mm Male Plug Jack to Bare Wire Open End Power Supply Replacement 3Ft](https://www.amazon.com/gp/product/B09JKNRHBZ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)                                                                                                                                                                                    | 1 | Amazon|
+| [12V DC to 19V DC Mini Size Ultra-slim High Efficiency 90W Power Adaptor DD90M-19V](https://www.bixpower.com/BX-DD90M-p/bx-dd90m-19v.htm) | 1 | BIX |
 | [JST VH 3.96 mm Pitch 2 Pin](https://www.amazon.com/pzsmocn-JST-VH-VH-SMT-Terminal-Connector/dp/B089QRPTYS?th=1)                         | 1 | Amazon |
 | [CAT6A Slim Cable UTP Booted 1.5 FT](https://www.amazon.com/gp/product/B07WZQCBBF/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)      | 1 | Amazon |
 | [White Delrin Laser Cut Base](https://www.ponoko.com/materials/white-delrin)                                                             | 1 | Ponoko |
