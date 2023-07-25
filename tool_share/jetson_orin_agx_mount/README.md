@@ -4,7 +4,7 @@
 
 **Created by**: Hello Robot Inc
 
-This tool allows a Nvidia Jetson Orin AGX to be attached to the Stretch base. The design uses a laser cut piece of White Delrin ordered from Ponoko.com, one off the shelf ethernet cable and one 12volt 16AWG 2.5mm male DC power cable ordered from Amazon.
+This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretch base. The design uses a laser cut piece of white Delrin ordered from Ponoko.com, and a number of off the shelf items listed below.
 
 <img src="images/Jetson_Pack.png" alt="image" height="400" />
 
