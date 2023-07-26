@@ -29,7 +29,7 @@ This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretc
 
 ## Assembly instructions
 
-1. Cut the DC power cable 20" in length. Pigtail the cable and expose 1/8" of copper wire . Crimp with JST-VH crimper tool and attach the JST-VH 2 pin connector.
+1. Cut the DC power cable 20" in length. Pigtail the cable and expose 3/16" of copper wire . Crimp with JST-VH crimper tool and attach the JST-VH 2 pin connector.
 2. Remove base shell from Stretch base.
 3. Connect the 2 pin connector to 12volt Aux on PIMU.
 4. Route cable through Aux hole in the base shell and re-install base shell.
