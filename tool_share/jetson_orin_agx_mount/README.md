@@ -6,7 +6,7 @@
 
 This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretch base. The design uses a laser cut piece of white Delrin ordered from Ponoko.com, and a number of off the shelf items listed below.
 
-<img src="images/Jetson_Pack.png" alt="image" height="400" />
+<img src="images/Jetson_Mount.jpg" alt="image" height="400" />
 
 
 ## Parts List
