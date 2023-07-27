@@ -33,7 +33,7 @@ This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretc
 2. Remove base shell from Stretch base.
 3. Connect the 2 pin connector to 12volt Aux on PIMU.
 4. Route cable through Aux hole in the base shell and re-install base shell.
-5. Mount the Jetson Orin AGX to white delrin custom plate using 4x Torx Flat Head Thread-Cutting Screws.
+5. Mount the Jetson Orin AGX to white delrin custom plate using 4x Torx Flat Head Thread-Cutting Screws for Metal.
 6. Add 4x Male-Female Threaded Hex Standoff to Stretch Base accessory mounts.
 7. Mount the white delrin custom plate to standoffs using 4x Steel Button Head Torx Screws.
 8. Plug in ethernet cable to Jetson Orin AGX.
