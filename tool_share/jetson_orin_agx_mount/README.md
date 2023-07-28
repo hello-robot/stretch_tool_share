@@ -11,20 +11,19 @@ This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretc
 
 ## Parts List
 
-| Item                                                                                                                                         | Qty | Vendor           |
-|----------------------------------------------------------------------------------------------------------------------------------------------|:-------------:| -----: |
-| [DC Power Pigtails Cable, DC 5.5mm x 2.5mm Male Plug Jack to Bare Wire Open End Power Supply Replacement 3Ft](https://www.amazon.com/gp/product/B09JKNRHBZ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)                                                                                                                                                                                    | 1 | Amazon|
-| [12V DC to 19V DC Mini Size Ultra-slim High Efficiency 90W Power Adaptor DD90M-19V](https://www.bixpower.com/BX-DD90M-p/bx-dd90m-19v.htm) | 1 | BIX |
-| [JST VH 3.96 mm Pitch 2 Pin](https://www.amazon.com/pzsmocn-JST-VH-VH-SMT-Terminal-Connector/dp/B089QRPTYS?th=1)                         | 1 | Amazon |
-| [CAT6A Slim Cable UTP Booted 1.5 FT](https://www.amazon.com/gp/product/B07WZQCBBF/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)      | 1 | Amazon |
-| [White Delrin Laser Cut Base](https://www.ponoko.com/materials/white-delrin)                                                             | 1 | Ponoko |
-| [Jetson_Orin_AGX_base_plate_flat_pattern.DXF](CAD/Jetson_Orin_AGX_base_plate_flat_pattern.DXF)                                           | 1 | PLA 3D printer |                          
-| [Male-Female Threaded Hex Standoff](https://www.mcmaster.com/93655A308/)                                                                 | 4 | McMaster-Carr |
-| [Cable Tie Mount](https://www.mcmaster.com/7566K12/)                                                                                     | 5 | McMaster-Carr |
-| [Cable Zip Ties 4 Inch](https://www.amazon.com/gp/product/B07V6QLSBP/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)                    | 8 | Amazon |
-| [Phillips Rounded Head Thread-Forming Screws](https://www.mcmaster.com/90380A375/)                                                       | 5 | McMaster-Carr |
-| [Black-Oxide Alloy Steel Button Head Torx Screws](https://www.mcmaster.com/96452A714/)                                                   | 4 | McMaster-Carr |
-| [Torx Flat Head Thread-Cutting Screws for Metal](https://www.mcmaster.com/90390A112/)                                                    | 4 | McMaster-Carr |
+| Item                                                                                                                                                                                                         | Qty |        Vendor |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|--------------:|
+| [DC Power Pigtails Cable, DC 5.5mm x 2.5mm Male Plug Jack to Bare Wire Open End Power Supply Replacement 3Ft](https://www.amazon.com/gp/product/B09JKNRHBZ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | 1 |        Amazon |
+| [12V DC to 19V DC Mini Size Ultra-slim High Efficiency 90W Power Adaptor DD90M-19V](https://www.bixpower.com/BX-DD90M-p/bx-dd90m-19v.htm)                                                                    | 1 |           BIX |
+| [JST VH 3.96 mm Pitch 2 Pin](https://www.amazon.com/pzsmocn-JST-VH-VH-SMT-Terminal-Connector/dp/B089QRPTYS?th=1)                                                                                             | 1 |        Amazon |
+| [CAT6A Slim Cable UTP Booted 1.5 FT](https://www.amazon.com/gp/product/B07WZQCBBF/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)                                                                          | 1 |        Amazon |
+| [White Delrin Laser Cut Base](https://www.ponoko.com/materials/white-delrin) using [Jetson_Orin_AGX_base_plate_flat_pattern.DXF](CAD/Jetson_Orin_AGX_base_plate_flat_pattern.DXF)                                                                                                                             | 1 |        Ponoko |
+| [Male-Female Threaded Hex Standoff](https://www.mcmaster.com/93655A308/)                                                                                                                                     | 4 | McMaster-Carr |
+| [Cable Tie Mount](https://www.mcmaster.com/7566K12/)                                                                                                                                                         | 5 | McMaster-Carr |
+| [Cable Zip Ties 4 Inch](https://www.amazon.com/gp/product/B07V6QLSBP/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)                                                                                        | 8 |        Amazon |
+| [Phillips Rounded Head Thread-Forming Screws](https://www.mcmaster.com/90380A375/)                                                                                                                           | 5 | McMaster-Carr |
+| [Black-Oxide Alloy Steel Button Head Torx Screws](https://www.mcmaster.com/96452A714/)                                                                                                                       | 4 | McMaster-Carr |
+| [Torx Flat Head Thread-Cutting Screws for Metal](https://www.mcmaster.com/90390A112/)                                                                                                                        | 4 | McMaster-Carr |
 
 
 ## Assembly instructions
@@ -40,3 +39,16 @@ This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretc
 9. Plug your custom length DC power cable into the BIX power adaptor. Plug the Bix power adaptor to Jetson Orin AGX.
 10. Attach 5x Cable tie mounts using 5x Phillips Rounded Head Thread forming screws.
 11. Zip-tie cables and cut excess.
+
+## Software
+
+Adding this requires limiting the range of motion of the lift joint so that it does not collide with the part. To do this, modify the lower range in your ```stretch_user_params.yaml``` to:
+
+```commandline
+lift:
+  range_m: [0.25, 1.xxx]
+```
+
+Note: `1.xx` is the calibrated upper bound found from ```stretch_params.py | grep lift | grep range_m```
+
+Note: This conservatively limits the range of motion such that the standard gripper will not collide when stowed.
