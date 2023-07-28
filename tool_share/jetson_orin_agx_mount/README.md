@@ -13,7 +13,7 @@ This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretc
 
 | Item                                                                                                                                                                                                         | Qty |        Vendor |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|--------------:|
-| [NVIDIA Jetson Orin AGX Mount Assembly Instructions PDF](tool_share/jetson_orin_agx_mount/images/Stretch_2_NVIDIA_Jetson_Orin_AGX_Mount_Installation.pdf)                                                                                     | 1 |   Hello Robot |
+| [NVIDIA Jetson Orin AGX Mount Assembly Instructions PDF](images/Stretch_2_NVIDIA_Jetson Orin_AGX_Mount_Installation.pdf)                                                                                     | 1 |   Hello Robot |
 | [DC Power Pigtails Cable, DC 5.5mm x 2.5mm Male Plug Jack to Bare Wire Open End Power Supply Replacement 3Ft](https://www.amazon.com/gp/product/B09JKNRHBZ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | 1 |        Amazon |
 | [12V DC to 19V DC Mini Size Ultra-slim High Efficiency 90W Power Adaptor DD90M-19V](https://www.bixpower.com/BX-DD90M-p/bx-dd90m-19v.htm)                                                                    | 1 |           BIX |
 | [JST VH 3.96 mm Pitch 2 Pin](https://www.amazon.com/pzsmocn-JST-VH-VH-SMT-Terminal-Connector/dp/B089QRPTYS?th=1)                                                                                             | 1 |        Amazon |
