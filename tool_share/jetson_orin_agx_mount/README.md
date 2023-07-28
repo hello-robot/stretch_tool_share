@@ -1,6 +1,6 @@
 ![image](../../images/banner.png)
 
-## Nvidia Jetson Orin AGX base mount
+## Nvidia Jetson Orin AGX Backpack
 
 **Created by**: Hello Robot Inc
 

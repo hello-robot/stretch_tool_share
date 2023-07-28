@@ -10,26 +10,26 @@ We also include URDF and mesh files for many of the tools in their `stretch_desc
 
 We'd love it if you shared your creations with the community. We recommend you create a GitHub repository similar to this one for your own tools and then post an announcement to the [forum](https://forum.hello-robot.com/) to let people know about it. 
 
-|                             Tool                             |                                                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-|     [Stretch Dex Wrist](./tool_share/stretch_dex_wrist)      | <img src="tool_share/stretch_dex_wrist/images/dex_wrist_A.png" alt="image" height="250" /> |
-|    [Stretch Teleop Kit](./tool_share/stretch_teleop_kit)     | <img src="tool_share/stretch_teleop_kit/images/teleop_kit_full.jpg" alt="image" height="250" /> |
-| [Stretch Docking Station](./tool_share/stretch_docking_station) | <img src="tool_share/stretch_docking_station/images/docking_station_A.png" alt="image" height="250" /> |
-| [Wrist USB Board Camera](./tool_share/wrist_USB_board_camera) | <img src="tool_share/wrist_USB_board_camera/images/wrist_camera_A.png" alt="image" height="250" /> |
-|        [Stretch 2 Model](./tool_share/stretch_2_STEP)        | <img src="tool_share/stretch_2_STEP/images/stretch_2_step.PNG" alt="image" height="250" /> |
-|   [NVIDIA Jetson Orin AGX Mount](./tool_share/jetson_orin_agx_mount)    | <img src="tool_share/jetson_orin_agx_mount/images/Jetson_Mount.png" alt="image" height="250" /> |
-|   [Swivel Tablet Mount](./tool_share/swivel_tablet_mount)    | <img src="tool_share/swivel_tablet_mount/images/re1_with_tablet.png" alt="image" height="250" /> |
-|       [Phone Holder V1](./tool_share/phone_holder_V1)        | <img src="tool_share/phone_holder_V1/images/phone_holder.png" alt="image" height="250" /> |
-|     [ReactorX Wrist V1](./tool_share/reactorx_wrist_V1)      | <img src="tool_share/reactorx_wrist_V1/images/reactor.png" alt="image" height="250" /> |
-|   [Dry Erase Holder V1](./tool_share/dry_erase_holder_V1)    | <img src="tool_share/dry_erase_holder_V1/images/marker_holder.png" alt="image" height="250" /> |
-|      [Swiffer Mount V1](./tool_share/swiffer_mount_V1)       | <img src="tool_share/swiffer_mount_V1/images/swiffer_holder.png" alt="image" height="250" /> |
-|    [Tray Cup Holder V1](./tool_share/tray_cup_holder_V1)     | <img src="tool_share/tray_cup_holder_V1/images/cup_holder.png" alt="image" height="250" /> |
-|             [Puller V1](./tool_share/puller_v1)              | <img src="tool_share/puller_v1/images/drawer_pull_A.PNG" alt="image" height="250" /> |
-|       [Stretch RE1 Arm](./tool_share/stretch_RE1_arm)        | <img src="tool_share/stretch_RE1_arm/images/arm_A.PNG" alt="image" height="250" /> |
-|      [Stretch RE1 Head](./tool_share/stretch_RE1_head)       | <img src="tool_share/stretch_RE1_head/images/stretch_head_A.PNG" alt="image" height="250" /> |
-|   [Easy-Access Card Holder](./tool_share/card_holder_V1.5)   | <img src="tool_share/card_holder_V1.5/images/card_holder.gif" alt="image" height="250" /> |
-|     [Arm-Mounted Tray](./tool_share/arm_mounted_tray_V1)     | <img src="tool_share/arm_mounted_tray_V1/images/stretch_tray.JPG" alt="image" height="250" /> |
-|        [Button Pusher](./tool_share/button_pusher_V2)        | <img src="tool_share/button_pusher_V2/images/button_pusher.png" alt="image" height="250" /> |
+|                                 Tool                                  |                                                              |
+|:---------------------------------------------------------------------:| :----------------------------------------------------------: |
+| [NVIDIA Jetson Orin AGX Backpack](./tool_share/jetson_orin_agx_mount) | <img src="tool_share/jetson_orin_agx_mount/images/Jetson_Mount.png" alt="image" height="250" /> ||                                                                       |                                                                                            |
+|          [Stretch Dex Wrist](./tool_share/stretch_dex_wrist)          | <img src="tool_share/stretch_dex_wrist/images/dex_wrist_A.png" alt="image" height="250" /> |
+|         [Stretch Teleop Kit](./tool_share/stretch_teleop_kit)         | <img src="tool_share/stretch_teleop_kit/images/teleop_kit_full.jpg" alt="image" height="250" /> |
+|    [Stretch Docking Station](./tool_share/stretch_docking_station)    | <img src="tool_share/stretch_docking_station/images/docking_station_A.png" alt="image" height="250" /> |
+|     [Wrist USB Board Camera](./tool_share/wrist_USB_board_camera)     | <img src="tool_share/wrist_USB_board_camera/images/wrist_camera_A.png" alt="image" height="250" /> |
+|            [Stretch 2 Model](./tool_share/stretch_2_STEP)             | <img src="tool_share/stretch_2_STEP/images/stretch_2_step.PNG" alt="image" height="250" /> |
+|        [Swivel Tablet Mount](./tool_share/swivel_tablet_mount)        | <img src="tool_share/swivel_tablet_mount/images/re1_with_tablet.png" alt="image" height="250" /> |
+|            [Phone Holder V1](./tool_share/phone_holder_V1)            | <img src="tool_share/phone_holder_V1/images/phone_holder.png" alt="image" height="250" /> |
+|          [ReactorX Wrist V1](./tool_share/reactorx_wrist_V1)          | <img src="tool_share/reactorx_wrist_V1/images/reactor.png" alt="image" height="250" /> |
+|        [Dry Erase Holder V1](./tool_share/dry_erase_holder_V1)        | <img src="tool_share/dry_erase_holder_V1/images/marker_holder.png" alt="image" height="250" /> |
+|           [Swiffer Mount V1](./tool_share/swiffer_mount_V1)           | <img src="tool_share/swiffer_mount_V1/images/swiffer_holder.png" alt="image" height="250" /> |
+|         [Tray Cup Holder V1](./tool_share/tray_cup_holder_V1)         | <img src="tool_share/tray_cup_holder_V1/images/cup_holder.png" alt="image" height="250" /> |
+|                  [Puller V1](./tool_share/puller_v1)                  | <img src="tool_share/puller_v1/images/drawer_pull_A.PNG" alt="image" height="250" /> |
+|            [Stretch RE1 Arm](./tool_share/stretch_RE1_arm)            | <img src="tool_share/stretch_RE1_arm/images/arm_A.PNG" alt="image" height="250" /> |
+|           [Stretch RE1 Head](./tool_share/stretch_RE1_head)           | <img src="tool_share/stretch_RE1_head/images/stretch_head_A.PNG" alt="image" height="250" /> |
+|       [Easy-Access Card Holder](./tool_share/card_holder_V1.5)        | <img src="tool_share/card_holder_V1.5/images/card_holder.gif" alt="image" height="250" /> |
+|         [Arm-Mounted Tray](./tool_share/arm_mounted_tray_V1)          | <img src="tool_share/arm_mounted_tray_V1/images/stretch_tray.JPG" alt="image" height="250" /> |
+|            [Button Pusher](./tool_share/button_pusher_V2)             | <img src="tool_share/button_pusher_V2/images/button_pusher.png" alt="image" height="250" /> |
 
 ## Licenses
 
