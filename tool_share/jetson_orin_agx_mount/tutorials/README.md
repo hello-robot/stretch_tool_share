@@ -1,4 +1,4 @@
-![image](../../images/banner.png)
+![image](https://github.com/hello-robot/stretch_tool_share/blob/feature/jetson_tutorials/images/banner.png)
 
 ## Nvidia Jetson Orin AGX Setup
 
