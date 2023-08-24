@@ -25,3 +25,8 @@ If your Jetson is power off then there are other steps that you will need to do 
 4. Release both buttons.
 
 Perfect, now with this your Jetson has entered in the Force Recovery Mode, you can go and watch the next tutorials!
+## Jetson Tutorials
+|  | Tutorial                                                                        | Description                                        |
+|--|---------------------------------------------------------------------------------|----------------------------------------------------|
+| 1 | [Jetson Initial Setup](jetson_inital_setup.md)                                           | Initial Setup for Jetson using SDK Manager|
+| 2 | [Jetson Connection Via Headless Configuration](jetson_connection_headless_configuration.md)                  | Ways to connect your Jetson using only CLI. |
