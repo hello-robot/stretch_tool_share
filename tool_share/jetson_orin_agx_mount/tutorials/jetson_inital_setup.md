@@ -1,7 +1,9 @@
 # Jetson Initial Setup Tutorial
-!warning This is only if you are flashing the Jetson for the first time, because every data that you have in here will be erased completely, this is only for the first time.
+!!! warning
+    This is only if you are flashing the Jetson for the first time, because every data that you have in here will be erased completely, this is only for the first time.
 
-!note The connection between the Jetson and the robot computer is by micro usb.
+!!! note
+    The connection between the Jetson and the robot computer is by micro usb.
 
 ## Step 1
 To begin with this tutorial you must have installed the NVIDIA SDK Manager and also have your Jetson in Force Recovery Mode, if you haven't done that you can go and see the [README](https://github.com/hello-robot/stretch_tool_share/blob/feature/jetson_tutorials/tool_share/jetson_orin_agx_mount/tutorials/README.md) file and then come back.
@@ -38,7 +40,8 @@ Once you have done all of this and everything is installed then you are finished
 If you want tu **shutdown** your Jetson you could input the command `sudo shutdown -h now` in your Jetson terminal, also you can do it via GUI but sometimes the Jetson's fan may still be working, so to avoid this it's better to do it the CLI way.
 
 # Troubleshooting
-!note To check the hardware layout of the Jetson AGX Orin click [here](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/developer_kit_layout.html).
+!!! note
+    To check the hardware layout of the Jetson AGX Orin click [here](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/developer_kit_layout.html).
 
 If the SDK Manager isn’t detecting your board, at least with the AGX Orin, you’ll need to do the following steps:
 1. Be sure that your Jetson is in Force Recovery mode
