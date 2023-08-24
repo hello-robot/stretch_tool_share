@@ -1,10 +1,12 @@
 # Jetson Connection Via Headless Configuration
-!note If you didn't configure your Jetson with the SDK Manager because of the Ubuntu versions then maybe this could be of great help for you.
+!!! note
+    If you didn't configure your Jetson with the SDK Manager because of the Ubuntu versions then maybe this could be of great help for you.
 
 As always there are several ways to enter your Jetson with only a terminal for the first one you can read it in the [documentation](https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit) that NVIDIA has or read it below:
 
 ## Connecting via screen command
-!note To check the hardware layout of the Jetson AGX Orin click [here](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/developer_kit_layout.html).
+!!! note
+    To check the hardware layout of the Jetson AGX Orin click [here](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/developer_kit_layout.html).
 1. First you will need to connect in the USB micro-B port ( **9** ) the micro USB cable into one of Stretch's USB ports. If you want to connect an ethernet cable is completly optional.
 2. Then connect the included power supply into the USB Type-C™ port above the DC jack ( **4** ).
 3. Your developer kit should automatically power on, and the white LED near the power button will light. If not, press the Power button ( **1** ).
@@ -49,7 +51,8 @@ And now in your terminal you will have to login in your ubuntu account that you 
   <img src="https://github.com/hello-robot/stretch_tool_share/assets/141784078/21aaee55-eae1-48b4-9525-691c78f3a88b"/>
 </p>
 
-!note If you didn't configure your Jetson with the SDK Manager you can complete the CUI-based "Jetson Initial configuration" (oem-config) using your PC's keyboard. Read the NVIDIA [documentation](https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit).
+!!! note
+    If you didn't configure your Jetson with the SDK Manager you can complete the CUI-based "Jetson Initial configuration" (oem-config) using your PC's keyboard. Read the NVIDIA [documentation](https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit).
 
 ## Connecting via SSH
 For this type of connection first we need to know what's our board IP Adress. This is for the ones that have a serial console access, use the ifconfig command to get the required information in the Jetson terminal: 
