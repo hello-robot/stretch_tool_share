@@ -98,4 +98,4 @@ Learn more about enabling ESM Apps service at https://ubuntu.com/esm
 
 Last login: Thu Aug 24 10:21:30 2023
 ```
-Now you can create your own projects using the Jetson of your preference!
+Now you can create your own projects using the Jetson of your preference! You go and watch the Github Repository from NVIDIA called [Jetson Inference](https://github.com/dusty-nv/jetson-inference/tree/master) there are some tutorials for inference and real time vision or even a docker file with ROS to try your own projects.
