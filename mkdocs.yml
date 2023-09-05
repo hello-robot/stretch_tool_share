@@ -1,7 +1,7 @@
 site_name: Stretch Tool Share
 site_url: https://docs.hello-robot.com/stretch_tool_share
 site_description: "Hello Robot Stretch Tool Share Documentation"
-copyright: 'Copyright &copy; 2022 Hello Robot Inc'
+copyright: 'Copyright &copy; 2023 Hello Robot Inc'
 site_author: Hello Robot Inc
 use_directory_urls: True
 docs_dir: .
