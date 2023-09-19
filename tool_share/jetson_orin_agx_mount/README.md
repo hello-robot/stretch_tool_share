@@ -37,6 +37,7 @@ This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretc
 7. Mount the white delrin custom plate to standoffs using 4x Steel Button Head Torx Screws.
 8. Plug in ethernet cable to Jetson Orin AGX.
 9. Plug your custom length DC power cable into the BIX power adaptor. Plug the Bix power adaptor to Jetson Orin AGX.
+   - **The BIX Power Adapter is a crucial component that we highly recommend purchasing for this setup. It adds additional safety features to the power path system. Not adding this part to the setup can lead to the main power board of Stretch failing. **
 10. Attach 5x Cable tie mounts using 5x Phillips Rounded Head Thread forming screws.
 11. Zip-tie cables and cut excess.
 
