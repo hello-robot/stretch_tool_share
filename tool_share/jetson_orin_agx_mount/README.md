@@ -14,7 +14,7 @@ This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretc
 | Item                                                                                                                                                                                                         | Qty |        Vendor |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------:|--------------:|
 | [DC Power Pigtails Cable, DC 5.5mm x 2.5mm Male Plug Jack to Bare Wire Open End Power Supply Replacement 3Ft](https://www.amazon.com/gp/product/B09JKNRHBZ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | 1 |        Amazon |
-| [12V DC to 19V DC Mini Size Ultra-slim High Efficiency 90W Power Adaptor DD90M-19V](https://www.bixpower.com/BX-DD90M-p/bx-dd90m-19v.htm)                                                                    | 1 |           BIX |
+| [12V DC to 19V DC Mini Size Ultra-slim High Efficiency 90W Power Adapter DD90M-19V](https://www.bixpower.com/BX-DD90M-p/bx-dd90m-19v.htm)                                                                   | 1 |           BIX |
 | [JST VH 3.96 mm Pitch 2 Pin](https://www.amazon.com/pzsmocn-JST-VH-VH-SMT-Terminal-Connector/dp/B089QRPTYS?th=1)                                                                                             | 1 |        Amazon |
 | [CAT6A Slim Cable UTP Booted 1.5 FT](https://www.amazon.com/gp/product/B07WZQCBBF/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)                                                                          | 1 |        Amazon |
 | [White Delrin Laser Cut Base](https://www.ponoko.com/materials/white-delrin) using [Jetson_Orin_AGX_base_plate_flat_pattern.DXF](CAD/Jetson_Orin_AGX_base_plate_flat_pattern.DXF)                                                                                                                             | 1 |        Ponoko |
@@ -34,23 +34,29 @@ This tool allows an Nvidia Jetson Orin AGX to be mounted and wired to the Stretc
 
 3. Connect the 2 pin connector to 12volt Aux on PIMU.
 
-4. Route cable through Aux hole in the base shell and re-install base shell.
+4. Using a digital multimeter place the <span style="color:red;">**positive (red) probe**</span> inside the barrel jack connector of the new cable, and touch the **negative (black) probe** on the outside of the barrel jack connector.
 
-5. Mount the Jetson Orin AGX to white delrin custom plate using 4x Torx Flat Head Thread-Cutting Screws for Metal.
+5. Turn on Stretch and measure the voltage coming out of new cable that is connected to the 12volt Aux connector using a digital multimeter. Ensure that the voltage reading is **positive 12V** or higher
+      > [!WARNING]
+      > Ensuring that the voltage coming out of the new cable is positive, is crucial in protecting Stretch's main power board from damaging.
 
-6. Add 4x Male-Female Threaded Hex Standoff to Stretch Base accessory mounts.
+6. Route cable through Aux hole in the base shell and re-install base shell.
 
-7. Mount the white delrin custom plate to standoffs using 4x Steel Button Head Torx Screws.
+7. Mount the Jetson Orin AGX to white delrin custom plate using 4x Torx Flat Head Thread-Cutting Screws for Metal.
 
-8. Plug in ethernet cable to Jetson Orin AGX.
+8. Add 4x Male-Female Threaded Hex Standoff to Stretch Base accessory mounts.
 
-9. Plug your custom length DC power cable into the BIX power adaptor. Plug the Bix power adaptor to Jetson Orin AGX.
-   > [!WARNING]
-   > The BIX Power Adapter is a crucial component that we highly recommend purchasing for this setup. It adds additional safety features to the power path system. Not adding this part to the setup can lead to the main power board of Stretch failing.
+9. Mount the white delrin custom plate to standoffs using 4x Steel Button Head Torx Screws.
 
-10. Attach 5x Cable tie mounts using 5x Phillips Rounded Head Thread forming screws.
+10. Plug in ethernet cable to Jetson Orin AGX.
 
-11. Zip-tie cables and cut excess.
+11. Plug your custom length DC power cable into the BIX power adaptor. Plug the Bix power adapter to Jetson Orin AGX.
+    > [!IMPORTANT]
+    > The BIX Power Adapter is a crucial component that we highly recommend purchasing for this setup. It adds additional safety features to the power path system. Not adding this part to the setup can lead to the Jetson power system failing.
+
+12. Attach 5x Cable tie mounts using 5x Phillips Rounded Head Thread forming screws.
+
+13. Zip-tie cables and cut excess.
 
 ## Software
 
