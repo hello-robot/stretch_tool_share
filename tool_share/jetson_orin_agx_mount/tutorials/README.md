@@ -11,8 +11,8 @@ What you will need to start with this is the Jetson Orin AGX Dev kit, as we know
 Also if you want to follow the steps for the SDK Manager from the NVIDIA Documentation you can read it from [here](https://docs.nvidia.com/sdk-manager/index.html). And we will recommend you to put your Jetson in Force Recovery mode, if you don’t know how to do this for the Jetson AGX Orin you can see this [page](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/howto.html) or follow the next steps:
 
 ## Force Recovery Mode
-!!! note
-    If you want to be sure that the buttons you are pressing are the correct ones make sure to see the [Hardware Layout](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/developer_kit_layout.html) page.
+[!NOTE] 
+If you want to be sure that the buttons you are pressing are the correct ones make sure to see the [Hardware Layout](https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/developer_kit_layout.html) page.
 
 To enter in the Force Recovery mode first make sure that the buttons are facing you, then you need to check the state of your Jetson, if it's power on follow the next steps:
 1. Press and hold down the Force Recovery Button (**2 arrows/middle one**).
