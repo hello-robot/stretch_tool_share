@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="stretch_description_SE3_Tablet_12in.SLDASM">
+  <link
+    name="link_wrist_roll">
+    <inertial>
+      <origin
+        xyz="0.000282866583078745 0.000557472767112321 0.0196635450474179"
+        rpy="0 0 0" />
+      <mass
+        value="0.0221916689638079" />
+      <inertia
+        ixx="2.20608319376175E-06"
+        ixy="3.01742816610977E-09"
+        ixz="-1.83537060988679E-08"
+        iyy="2.91436292743444E-06"
+        iyz="-4.55097054416199E-08"
+        izz="4.83731409646016E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://stretch_description_SE3_Tablet_12in.SLDASM/meshes/link_wrist_roll.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://stretch_description_SE3_Tablet_12in.SLDASM/meshes/link_wrist_roll.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link_DW3_tablet_12in">
+    <inertial>
+      <origin
+        xyz="-0.12836 0.013917 0.05618"
+        rpy="0 0 0" />
+      <mass
+        value="0.31101" />
+      <inertia
+        ixx="0.00082988"
+        ixy="-3.7223E-19"
+        ixz="1.8529E-18"
+        iyy="0.0024176"
+        iyz="1.7591E-18"
+        izz="0.0015902" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://stretch_description_SE3_Tablet_12in.SLDASM/meshes/link_DW3_tablet_12in.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://stretch_description_SE3_Tablet_12in.SLDASM/meshes/link_DW3_tablet_12in.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_DW3_tablet_12in"
+    type="fixed">
+    <origin
+      xyz="0.1282 -0.057512 0.046711"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link_wrist_roll" />
+    <child
+      link="link_DW3_tablet_12in" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
