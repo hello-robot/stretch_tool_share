@@ -2,7 +2,7 @@
 params = {
     "eoa_wrist_dw3_tool_tablet_12in": {
         'py_class_name': 'EOA_Wrist_DW3_Tool_Tablet_12in',
-        'py_module_name': 'stretch_tool_share.eoa_wrist_dw3_tool_tablet_12in.tool',
+        'py_module_name': 'stretch_tool_share_se3.eoa_wrist_dw3_tool_tablet_12in.tool',
         'use_group_sync_read': 1,
         'retry_on_comm_failure': 1,
         'baud': 115200,
