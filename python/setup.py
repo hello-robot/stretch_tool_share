@@ -7,10 +7,10 @@ tool_scripts={script_path+'/'+f for f in listdir(script_path) if isfile(join(scr
 
 setuptools.setup(
     name="hello_robot_stretch_tool_share",
-    version='0.2.8',
+    version='0.3.0',
     author="Hello Robot Inc.",
     author_email="support@hello-robot.com",
-    description="Stretch RE1 end of arm tool interfaces",
+    description="Stretch end of arm tool interfaces",
     url="https://github.com/hello-robot/stretch_tool_share",
     scripts = tool_scripts,
     packages=['stretch_tool_share',
@@ -18,7 +18,8 @@ setuptools.setup(
               'stretch_tool_share.stretch_dex_wrist',
               'stretch_tool_share.reactorx_wrist_v1',
               'stretch_tool_share.usbcam_wrist_v1',
-              'stretch_tool_share.dry_erase_holder_v1'],
+              'stretch_tool_share.dry_erase_holder_v1',
+              'stretch_tool_share.eoa_wrist_dw3_tool_tablet_12in'],
     classifiers=[
         "Programming Language :: Python :: 2",
         "Operating System :: OS Independent",
