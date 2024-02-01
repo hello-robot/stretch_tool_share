@@ -5,7 +5,7 @@ params = {
         'wrist_roll_overload': 1,
     },
     "tool_stretch_dex_wrist": {
-        'py_class_name': 'ToolStretchDexWrist',
+        'py_class_name': 'ToolStretchDexWristBeta',
         'py_module_name': 'stretch_tool_share.stretch_dex_wrist_beta.tool',
         'use_group_sync_read': 1,
         'retry_on_comm_failure': 1,
