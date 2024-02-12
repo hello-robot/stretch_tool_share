@@ -7,8 +7,11 @@ class WristRoll(DynamixelHelloXL430):
     API to the Stretch RE1 wrist roll joint
     """
     def __init__(self, chain=None):
-        DynamixelHelloXL430.__init__(self,'wrist_roll',chain)
-        self.poses = {'cw_90': hu.deg_to_rad(90.0), 'forward': hu.deg_to_rad(0.0), 'ccw_90': hu.deg_to_rad(-90.0)}
+        print('stretch_tool_share.wrist_roll.WristRoll is now deprecated')
+        print('See PR https://github.com/hello-robot/stretch_tool_share/pull/20')
+        return
+        # DynamixelHelloXL430.__init__(self,'wrist_roll',chain)
+        # self.poses = {'cw_90': hu.deg_to_rad(90.0), 'forward': hu.deg_to_rad(0.0), 'ccw_90': hu.deg_to_rad(-90.0)}
 
     def home(self):
         """

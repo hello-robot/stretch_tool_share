@@ -15,8 +15,6 @@ setuptools.setup(
     scripts = tool_scripts,
     packages=['stretch_tool_share',
               'stretch_tool_share_se3',
-              'stretch_tool_share.stretch_dex_wrist_beta',
-              'stretch_tool_share.stretch_dex_wrist',
               'stretch_tool_share.reactorx_wrist_v1',
               'stretch_tool_share.usbcam_wrist_v1',
               'stretch_tool_share.dry_erase_holder_v1',

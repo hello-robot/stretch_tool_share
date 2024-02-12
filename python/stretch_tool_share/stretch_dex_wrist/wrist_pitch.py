@@ -8,9 +8,10 @@ class WristPitch(DynamixelHelloXL430):
     """
     def __init__(self, chain=None):
         print('stretch_tool_share.wrist_pitch.WristPitch is now deprecated')
-        print('See PR ')
-        DynamixelHelloXL430.__init__(self,'wrist_pitch',chain)
-        self.poses = {'up': hu.deg_to_rad(56.0), 'forward': hu.deg_to_rad(0.0), 'down': hu.deg_to_rad(-90.0)}
+        print('See PR https://github.com/hello-robot/stretch_tool_share/pull/20')
+        return
+        # DynamixelHelloXL430.__init__(self,'wrist_pitch',chain)
+        # self.poses = {'up': hu.deg_to_rad(56.0), 'forward': hu.deg_to_rad(0.0), 'down': hu.deg_to_rad(-90.0)}
 
     def home(self):
         """
