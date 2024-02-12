@@ -3,7 +3,10 @@ from stretch_body.end_of_arm import EndOfArm
 
 class ToolStretchDexWrist(EndOfArm):
     def __init__(self, name='tool_stretch_dex_wrist'):
-        EndOfArm.__init__(self, name)
+        print('stretch_tool_share.tool.ToolStretchDexWrist is now deprecated')
+        print('See PR https://github.com/hello-robot/stretch_tool_share/pull/20')
+        return
+        # EndOfArm.__init__(self, name)
 
     def stow(self):
         # Fold in wrist and gripper
